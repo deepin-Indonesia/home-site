@@ -3,9 +3,11 @@
     <div class="footer-grid">
       <!-- Brand -->
       <div class="footer-brand">
-        <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia" width="40" height="40">
-        <h3>deepin Indonesia</h3>
+        <img src="{{ '/assets/images/deepin-id-text_nobg.png' | relative_url }}" alt="deepin Indonesia" width="180">
         <p>Komunitas resmi pengguna dan pengembang deepin di Indonesia. Mari bersama membangun ekosistem deepin yang lebih baik.</p>
+        <p class="footer-siberin">
+          deepin Indonesia adalah bagian dari <a href="https://www.siberin.id" target="_blank" rel="noopener"><strong>SIBERIN</strong></a>
+        </p>
       </div>
 
       <!-- Quick Links -->
@@ -15,6 +17,7 @@
           {% for item in site.data.navigation.main_nav %}
           <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endfor %}
+          <li><a href="{{ '/tentang-deepin-id/' | relative_url }}">Tentang deepin Indonesia</a></li>
         </ul>
       </div>
 
@@ -24,7 +27,9 @@
         <ul>
           {% for item in site.data.navigation.about_deepin_nav %}
             {% for child in item.children %}
-            <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+              {% unless child.highlight %}
+              <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+              {% endunless %}
             {% endfor %}
           {% endfor %}
         </ul>
@@ -40,7 +45,7 @@
           <a href="https://github.com/deepin-Indonesia" target="_blank" rel="noopener noreferrer" aria-label="GitHub deepin Indonesia" class="social-icon">
             <i class="fab fa-github"></i>
           </a>
-          <a href="https://youtube.com/@deepinID" target="_blank" rel="noopener noreferrer" aria-label="YouTube deepin Indonesia" class="social-icon">
+          <a href="https://www.youtube.com/playlist?list=PLaZr9JPhal-4" target="_blank" rel="noopener noreferrer" aria-label="YouTube deepin Indonesia" class="social-icon">
             <i class="fab fa-youtube"></i>
           </a>
         </div>
@@ -53,11 +58,7 @@
     </div>
 
     <div class="footer-bottom">
-      <p>&copy; {{ 'now' | date: '%Y' }} deepin Indonesia. Dibangun dengan <i class="fas fa-heart"></i> oleh komunitas.</p>
-      <p class="footer-credit">
-        deepin® adalah merek dagang terdaftar dari
-        <a href="https://www.deepin.org" target="_blank" rel="noopener">deepin</a>.
-      </p>
+      <p>&copy; 2026 deepin Indonesia. Dibangun dengan <i class="fas fa-heart"></i> oleh komunitas.</p>
     </div>
   </div>
 </footer>

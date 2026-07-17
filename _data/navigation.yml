@@ -12,8 +12,6 @@ main_nav:
     url: /news/
   - title: Gabung Komunitas
     url: /gabung-komunitas/
-  - title: Tentang deepin Indonesia
-    url: /tentang-deepin-id/
 
 about_deepin_nav:
   - title: Tentang deepin
@@ -24,6 +22,9 @@ about_deepin_nav:
         url: /tentang-deepin/original-apps/
       - title: Desktop Environment
         url: /tentang-deepin/desktop-environment/
+      - title: Tentang deepin Indonesia
+        url: /tentang-deepin-id/
+        highlight: true
 
 social_links:
   - name: Telegram
@@ -33,5 +34,5 @@ social_links:
     url: https://github.com/deepin-Indonesia
     icon: github
   - name: YouTube
-    url: https://youtube.com/@deepinID
+    url: https://www.youtube.com/playlist?list=PLaZr9JPhal-4
     icon: youtube

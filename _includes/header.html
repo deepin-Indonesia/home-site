@@ -35,8 +35,8 @@
           </button>
           <ul class="dropdown-menu" aria-label="{{ item.title }} submenu">
             {% for child in item.children %}
-            <li class="dropdown-item">
-              <a href="{{ child.url | relative_url }}" class="dropdown-link">{{ child.title }}</a>
+            <li class="dropdown-item {% if child.highlight %}dropdown-item-highlight{% endif %}">
+              <a href="{{ child.url | relative_url }}" class="dropdown-link {% if child.highlight %}dropdown-link-highlight{% endif %}">{{ child.title }}</a>
             </li>
             {% endfor %}
           </ul>

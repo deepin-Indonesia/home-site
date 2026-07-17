@@ -44,7 +44,7 @@ permalink: /
     <div class="section-header">
       <h2>Mengapa deepin Indonesia?</h2>
       <p class="section-subtitle">
-        deepin Indonesia adalah komunitas independen yang didedikasikan untuk mendukung pengguna deepin di Indonesia. 
+        deepin Indonesia adalah komunitas resmi yang didedikasikan untuk mendukung pengguna deepin di Indonesia. 
         Kami menyediakan panduan, diskusi, dan event seputar deepin dalam Bahasa Indonesia.
       </p>
     </div>
@@ -69,6 +69,31 @@ permalink: /
         </div>
         <h3>Event & Workshop</h3>
         <p>Meetup, workshop instalasi, dan kontribusi open-source secara berkala untuk anggota komunitas.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Community Lead Section -->
+<section class="community-lead">
+  <div class="container">
+    <div class="lead-card">
+      <div class="lead-avatar">
+        <div class="lead-avatar-icon">
+          <i class="fas fa-user-astronaut"></i>
+        </div>
+      </div>
+      <div class="lead-info">
+        <span class="lead-badge">Official deepin Global Ambassador for Indonesia</span>
+        <h2>Zaky NR</h2>
+        <p class="lead-title">Lead, deepin Indonesia Community</p>
+        <p class="lead-bio">
+          Memimpin dan menggerakkan komunitas deepin di Indonesia. Berdedikasi untuk memperkenalkan 
+          deepin ke lebih banyak pengguna di tanah air melalui edukasi, event, dan kolaborasi.
+        </p>
+        <a href="https://zaky.siberin.id/" target="_blank" rel="noopener" class="btn btn-primary">
+          <i class="fas fa-globe"></i> Kunjungi Website
+        </a>
       </div>
     </div>
   </div>
