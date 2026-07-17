@@ -1,6 +1,6 @@
 # deepin Indonesia — Home Site
 
-Halaman utama [deepin.id](https://deepin.id) — komunitas resmi pengguna deepin Linux di Indonesia.
+Halaman utama [deepin.id](https://deepin.id) — komunitas deepin Linux Indonesia.
 
 ## Setup
 
