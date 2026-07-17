@@ -810,6 +810,21 @@ a {
   }
 }
 
+.error-help {
+  font-size: .85rem;
+  color: var(--color-gray-400);
+  margin-top: .5rem;
+
+  a {
+    color: var(--deepin-blue);
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 /* ===== Footer ===== */
 .site-footer {
   background: var(--color-gray-900);
@@ -845,7 +860,7 @@ a {
 }
 
 .footer-siberin {
-  margin-top: .75rem;
+  margin-top: .4rem;
   font-size: .82rem;
   opacity: .9;
 
@@ -860,6 +875,24 @@ a {
 
   strong {
     color: #e53935;
+  }
+}
+
+.footer-email {
+  margin-top: .75rem;
+  font-size: .85rem;
+
+  i {
+    margin-right: .4rem;
+    color: var(--color-gray-500);
+  }
+
+  a {
+    color: var(--color-gray-300);
+
+    &:hover {
+      color: var(--color-white);
+    }
   }
 }
 
