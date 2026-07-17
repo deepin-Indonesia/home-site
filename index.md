@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Beranda
-description: deepin Indonesia — Komunitas resmi pengguna deepin Linux di Indonesia. Download deepin, gabung komunitas, baca berita dan release notes terbaru. deepin adalah OS Linux dengan UI modern dan cantik.
+description: deepin Indonesia — Komunitas resmi pengguna deepin Linux di Indonesia. Download deepin 25.2, gabung komunitas, baca berita dan release notes terbaru. deepin adalah sistem operasi Linux open source dengan UI modern, desktop environment DDE yang cantik, serta keamanan dan privasi terbaik.
 permalink: /
 ---
 
@@ -10,10 +10,12 @@ permalink: /
   <div class="hero-overlay"></div>
   <div class="hero-content container">
     <div class="hero-text">
-      <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia" class="hero-logo-text">
+      <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia — Komunitas Linux deepin di Indonesia" class="hero-logo-text">
       <p class="hero-description">
-        Selamat datang di komunitas <strong>deepin Indonesia</strong> — tempat berkumpulnya pengguna dan pengembang deepin di tanah air. 
-        Mari bersama menjelajahi sistem operasi Linux yang indah, modern, dan mudah digunakan.
+        Selamat datang di komunitas <strong>deepin Indonesia</strong> — pusat informasi dan diskusi bagi pengguna 
+        <strong>deepin Linux</strong> di Indonesia. deepin adalah sistem operasi Linux modern dengan 
+        <strong>Deepin Desktop Environment (DDE)</strong> yang memukau. Dapatkan pengalaman komputasi 
+        yang indah, cepat, dan aman bersama kami.
       </p>
       <div class="hero-actions">
         <a href="/download/" class="btn btn-primary">
@@ -28,13 +30,82 @@ permalink: /
       <div class="video-wrapper">
         <iframe
           src="https://www.youtube-nocookie.com/embed/w0fyT59D6nw?rel=0&modestbranding=1"
-          title="deepin 25 Video"
+          title="deepin 25 — Sistem Operasi Linux Modern dengan Desktop Environment DDE yang Cantik"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
           allowfullscreen>
         </iframe>
       </div>
       <p class="video-caption">Tonton pengenalan <strong>deepin 25</strong> — Lebih indah, lebih cepat, lebih andal.</p>
+    </div>
+  </div>
+</section>
+
+<!-- Headline: Versi Terbaru deepin 25.2 -->
+<section class="headline">
+  <div class="container">
+    <div class="headline-card">
+      <div class="headline-badge">
+        <i class="fas fa-star"></i> Rilis Terbaru
+      </div>
+      <div class="headline-body">
+        <h2>deepin 25.2 Kini Tersedia!</h2>
+        <p>
+          Versi terbaru <strong>deepin 25.2</strong> hadir dengan berbagai peningkatan performa, 
+          perbaikan bug, dan fitur baru yang membuat pengalaman menggunakan deepin semakin lancar. 
+          Update ini membawa penyempurnaan pada <strong>Deepin Desktop Environment (DDE)</strong>, 
+          dukungan hardware yang lebih luas, serta peningkatan keamanan sistem.
+        </p>
+        <a href="/news/deepin-25-2-update/" class="btn btn-primary">
+          <i class="fas fa-newspaper"></i> Baca Selengkapnya
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Apa itu deepin? Section — SEO Rich Content -->
+<section class="intro-deepin">
+  <div class="container">
+    <div class="section-header">
+      <h2>Apa itu deepin?</h2>
+      <p class="section-subtitle">
+        Mengenal lebih dekat sistem operasi Linux yang mengutamakan keindahan dan kemudahan.
+      </p>
+    </div>
+    <div class="intro-grid">
+      <div class="intro-text">
+        <p>
+          <strong>deepin</strong> adalah distribusi Linux berbasis Debian yang dikembangkan oleh 
+          <strong>deepin Technology</strong> (anak perusahaan UnionTech). deepin terkenal dengan 
+          <strong>Deepin Desktop Environment (DDE)</strong> — lingkungan desktop buatan sendiri 
+          yang menawarkan antarmuka pengguna (UI) yang modern, elegan, dan intuitif.
+        </p>
+        <p>
+          Tidak seperti distro Linux pada umumnya, deepin hadir dengan berbagai aplikasi bawaan 
+          seperti <strong>Deepin Music</strong>, <strong>Deepin Movie</strong>, 
+          <strong>Deepin Screen Capture</strong>, <strong>Deepin App Store</strong>, dan masih banyak lagi. 
+          Semua dirancang dengan desain yang konsisten dan pengalaman pengguna yang mulus.
+        </p>
+        <p>
+          deepin menggunakan <strong>DTK (Development ToolKit)</strong> sebagai fondasi 
+          pengembangan aplikasi dan desktop environment-nya. Dengan pendekatan <em>design-first</em>, 
+          deepin menjadi pilihan ideal bagi pengguna yang menginginkan Linux yang tidak hanya 
+          fungsional, tetapi juga <strong>indah dipandang dan nyaman digunakan</strong>.
+        </p>
+      </div>
+      <div class="intro-highlights">
+        <ul>
+          <li><i class="fas fa-check-circle"></i> Berbasis <strong>Debian Stable</strong> — stabil dan andal</li>
+          <li><i class="fas fa-check-circle"></i> <strong>DDE</strong> — Desktop Environment buatan sendiri</li>
+          <li><i class="fas fa-check-circle"></i> <strong>DTK</strong> — Development ToolKit untuk aplikasi native</li>
+          <li><i class="fas fa-check-circle"></i> <strong>App Store</strong> dengan 40.000+ aplikasi</li>
+          <li><i class="fas fa-check-circle"></i> UI/UX <strong>modern & konsisten</strong> di seluruh sistem</li>
+          <li><i class="fas fa-check-circle"></i> <strong>Open Source</strong> — bebas dan transparan</li>
+          <li><i class="fas fa-check-circle"></i> Mendukung <strong>multimedia</strong> dan produktivitas</li>
+          <li><i class="fas fa-check-circle"></i> Fokus pada <strong>privasi & keamanan</strong> pengguna</li>
+        </ul>
+      </div>
     </div>
   </div>
 </section>

@@ -447,6 +447,116 @@ a {
   }
 }
 
+/* ===== Headline Section ===== */
+.headline {
+  padding: 0 0 3rem;
+  margin-top: -2rem;
+  position: relative;
+  z-index: 3;
+}
+
+.headline-card {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  padding: 2rem 2.5rem;
+  box-shadow: var(--shadow-lg);
+}
+
+.headline-badge {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  background: linear-gradient(135deg, #f59e0b, #f97316);
+  color: var(--color-white);
+  padding: .5rem 1.2rem;
+  border-radius: 50px;
+  font-size: .85rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.headline-body {
+  h2 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--color-gray-900);
+    margin-bottom: .5rem;
+  }
+
+  p {
+    font-size: .95rem;
+    color: var(--color-gray-500);
+    line-height: 1.7;
+    margin-bottom: 1.25rem;
+
+    strong {
+      color: var(--color-gray-700);
+    }
+  }
+}
+
+/* ===== Intro deepin Section — SEO Rich Content ===== */
+.intro-deepin {
+  padding: var(--section-padding);
+  background: var(--color-gray-50);
+}
+
+.intro-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.intro-text {
+  p {
+    font-size: 1rem;
+    color: var(--color-gray-600);
+    line-height: 1.85;
+    margin-bottom: 1.25rem;
+
+    strong {
+      color: var(--color-gray-800);
+    }
+  }
+}
+
+.intro-highlights {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  padding: 1.75rem;
+
+  ul {
+    list-style: none;
+
+    li {
+      padding: .55rem 0;
+      font-size: .92rem;
+      color: var(--color-gray-600);
+      border-bottom: 1px solid var(--color-gray-100);
+
+      &:last-child {
+        border-bottom: none;
+      }
+
+      i {
+        color: var(--color-green);
+        margin-right: .5rem;
+      }
+
+      strong {
+        color: var(--color-gray-800);
+      }
+    }
+  }
+}
+
 /* ===== Section Header ===== */
 .section-header {
   text-align: center;
@@ -1013,6 +1123,23 @@ a {
     width: 96px;
     height: 96px;
     margin: 0 auto;
+  }
+
+  /* Headline */
+  .headline-card {
+    flex-direction: column;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .headline-body h2 {
+    font-size: 1.3rem;
+  }
+
+  /* Intro deepin */
+  .intro-grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
   }
 
   /* 404 Page */
