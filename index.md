@@ -46,7 +46,7 @@ permalink: /
   <div class="container">
     <div class="headline-card">
       <div class="headline-badge">
-        <i class="fas fa-star"></i> Rilis Terbaru
+        <i class="fas fa-bolt"></i> Rilis Terbaru
       </div>
       <div class="headline-body">
         <h2>deepin 25.2 Kini Tersedia!</h2>
@@ -57,7 +57,7 @@ permalink: /
           dukungan hardware yang lebih luas, serta peningkatan keamanan sistem.
         </p>
         <a href="/news/deepin-25-2-update/" class="btn btn-primary">
-          <i class="fas fa-newspaper"></i> Baca Selengkapnya
+          <i class="fas fa-arrow-right"></i> Baca Selengkapnya
         </a>
       </div>
     </div>
