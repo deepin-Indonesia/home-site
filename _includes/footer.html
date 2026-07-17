@@ -3,7 +3,7 @@
     <div class="footer-grid">
       <!-- Brand -->
       <div class="footer-brand">
-        <img src="{{ '/assets/images/deepin-id-text_nobg.png' | relative_url }}" alt="deepin Indonesia" width="180">
+        <img src="{{ '/assets/images/deepin-id-text_nobg.png' | relative_url }}" alt="deepin Indonesia" width="160" height="32">
         <p>Komunitas resmi pengguna dan pengembang deepin di Indonesia. Mari bersama membangun ekosistem deepin yang lebih baik.</p>
         <p class="footer-email">
           <i class="fas fa-envelope"></i> <a href="mailto:deepin@siberin.id">deepin@siberin.id</a>
@@ -15,7 +15,7 @@
 
       <!-- Quick Links -->
       <div class="footer-links">
-        <h4>Halaman</h4>
+        <strong class="footer-heading">Halaman</strong>
         <ul>
           {% for item in site.data.navigation.main_nav %}
           <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
@@ -25,7 +25,7 @@
 
       <!-- About deepin Links -->
       <div class="footer-links">
-        <h4>Tentang deepin</h4>
+        <strong class="footer-heading">Tentang deepin</strong>
         <ul>
           {% for item in site.data.navigation.about_deepin_nav %}
             {% for child in item.children %}
@@ -37,7 +37,7 @@
 
       <!-- Social & Community -->
       <div class="footer-social">
-        <h4>Ikuti Kami</h4>
+        <strong class="footer-heading">Ikuti Kami</strong>
         <p class="footer-social-desc">Terhubung dengan deepin Indonesia di berbagai platform.</p>
         <div class="social-icons">
           <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener noreferrer" aria-label="Telegram deepin Indonesia" class="social-icon">

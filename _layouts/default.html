@@ -72,10 +72,13 @@
   <link rel="apple-touch-icon" href="{{ '/assets/images/deepin-id.png' | relative_url }}">
 
   <!-- Stylesheet -->
+  <link rel="preload" href="{{ '/assets/css/main.css' | relative_url }}" as="style">
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <!-- Font Awesome (deferred for performance) -->
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" media="print" onload="this.media='all';this.onload=null">
+  <noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"></noscript>
 
   {% seo %}
 </head>

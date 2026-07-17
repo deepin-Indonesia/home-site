@@ -10,7 +10,7 @@ permalink: /
   <div class="hero-overlay"></div>
   <div class="hero-content container">
     <div class="hero-text">
-      <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia — Komunitas Linux deepin Indonesia" class="hero-logo-text">
+      <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia — Komunitas Linux deepin di Indonesia" class="hero-logo-text" width="340" height="340" fetchpriority="high">
       <p class="hero-description">
         Selamat datang di komunitas <strong>deepin Indonesia</strong> — pusat informasi dan diskusi bagi pengguna 
         <strong>deepin Linux</strong> di Indonesia. deepin adalah sistem operasi Linux modern dengan 
@@ -162,7 +162,7 @@ permalink: /
   <div class="container">
     <div class="lead-card">
       <div class="lead-avatar">
-        <img src="{{ '/assets/images/zaky-nr.jpg' | relative_url }}" alt="Zaky NR" class="lead-avatar-img">
+        <img src="{{ '/assets/images/zaky-nr.jpg' | relative_url }}" alt="Zaky NR" class="lead-avatar-img" width="120" height="120">
       </div>
       <div class="lead-info">
         <span class="lead-badge">Official deepin Global Ambassador for Indonesia</span>

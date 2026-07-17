@@ -943,7 +943,7 @@ a {
 /* ===== Footer ===== */
 .site-footer {
   background: var(--color-gray-900);
-  color: var(--color-gray-300);
+  color: #b0b8c1;
   font-size: .9rem;
 }
 
@@ -980,16 +980,16 @@ a {
   opacity: .9;
 
   a {
-    color: #e53935;
+    color: #ff6b6b;
     font-weight: 600;
 
     &:hover {
-      color: #c62828;
+      color: #ff8a80;
     }
   }
 
   strong {
-    color: #e53935;
+    color: #ff6b6b;
   }
 }
 
@@ -1012,7 +1012,9 @@ a {
 }
 
 .footer-links {
+  .footer-heading,
   h4 {
+    display: block;
     color: var(--color-white);
     font-size: .95rem;
     margin-bottom: 1rem;
@@ -1039,7 +1041,9 @@ a {
 }
 
 .footer-social {
+  .footer-heading,
   h4 {
+    display: block;
     color: var(--color-white);
     font-size: .95rem;
     margin-bottom: .5rem;
