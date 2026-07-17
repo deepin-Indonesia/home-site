@@ -899,12 +899,16 @@ a {
   opacity: .9;
 
   a {
-    color: var(--color-green);
+    color: #e53935;
     font-weight: 600;
 
     &:hover {
-      color: var(--color-green-dark);
+      color: #c62828;
     }
+  }
+
+  strong {
+    color: #e53935;
   }
 }
 
@@ -939,9 +943,15 @@ a {
   h4 {
     color: var(--color-white);
     font-size: .95rem;
-    margin-bottom: 1rem;
+    margin-bottom: .5rem;
     font-weight: 600;
   }
+}
+
+.footer-social-desc {
+  font-size: .8rem;
+  opacity: .6;
+  margin-bottom: 1rem;
 }
 
 .social-icons {
@@ -966,19 +976,6 @@ a {
       color: var(--color-white);
       transform: translateY(-2px);
     }
-  }
-}
-
-.footer-community-link a {
-  display: inline-flex;
-  align-items: center;
-  gap: .5rem;
-  color: var(--color-green);
-  font-weight: 500;
-  font-size: .88rem;
-
-  &:hover {
-    color: var(--color-green-dark);
   }
 }
 

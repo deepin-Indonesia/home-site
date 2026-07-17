@@ -12,12 +12,11 @@
 
       <!-- Quick Links -->
       <div class="footer-links">
-        <h4>Tautan Cepat</h4>
+        <h4>Halaman</h4>
         <ul>
           {% for item in site.data.navigation.main_nav %}
           <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
           {% endfor %}
-          <li><a href="{{ '/tentang-deepin-id/' | relative_url }}">Tentang deepin Indonesia</a></li>
         </ul>
       </div>
 
@@ -27,9 +26,7 @@
         <ul>
           {% for item in site.data.navigation.about_deepin_nav %}
             {% for child in item.children %}
-              {% unless child.highlight %}
-              <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
-              {% endunless %}
+            <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
             {% endfor %}
           {% endfor %}
         </ul>
@@ -37,7 +34,8 @@
 
       <!-- Social & Community -->
       <div class="footer-social">
-        <h4>Komunitas</h4>
+        <h4>Ikuti Kami</h4>
+        <p class="footer-social-desc">Terhubung dengan deepin Indonesia di berbagai platform.</p>
         <div class="social-icons">
           <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener noreferrer" aria-label="Telegram deepin Indonesia" class="social-icon">
             <i class="fab fa-telegram-plane"></i>
@@ -49,11 +47,6 @@
             <i class="fab fa-youtube"></i>
           </a>
         </div>
-        <p class="footer-community-link">
-          <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener">
-            <i class="fab fa-telegram-plane"></i> Gabung Telegram deepin Indonesia
-          </a>
-        </p>
       </div>
     </div>
 

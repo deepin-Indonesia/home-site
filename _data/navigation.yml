@@ -11,7 +11,7 @@ main_nav:
   - title: News
     url: /news/
   - title: Gabung Komunitas
-    url: /gabung-komunitas/
+    url: https://t.me/Linux_deepin_ID
 
 about_deepin_nav:
   - title: Tentang deepin
