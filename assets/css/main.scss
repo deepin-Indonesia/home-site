@@ -569,6 +569,188 @@ a {
   }
 }
 
+/* ===== Timeline Section ===== */
+.history-deepin {
+  padding: var(--section-padding);
+  background: var(--color-white);
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 2.5rem;
+
+  &::before {
+    content: '';
+    position: absolute;
+    left: 6px;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    background: linear-gradient(180deg, var(--deepin-blue) 0%, var(--color-teal) 100%);
+    border-radius: 2px;
+  }
+}
+
+.timeline-item {
+  position: relative;
+  padding-bottom: 2.5rem;
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+}
+
+.timeline-year {
+  position: absolute;
+  left: -2.5rem;
+  top: 0;
+  width: 60px;
+  text-align: right;
+  padding-right: .75rem;
+  font-weight: 800;
+  font-size: .9rem;
+  color: var(--deepin-blue);
+}
+
+.timeline-dot {
+  position: absolute;
+  left: -2.5rem;
+  top: .35rem;
+  width: 15px;
+  height: 15px;
+  background: var(--color-white);
+  border: 3px solid var(--deepin-blue);
+  border-radius: 50%;
+  z-index: 2;
+  transform: translateX(-6px);
+}
+
+.timeline-content {
+  padding-left: 1.5rem;
+
+  h3 {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: var(--color-gray-900);
+    margin-bottom: .25rem;
+  }
+
+  p {
+    font-size: .9rem;
+    color: var(--color-gray-500);
+    line-height: 1.65;
+  }
+}
+
+/* ===== Stats Section ===== */
+.stats-deepin {
+  padding: var(--section-padding);
+  background: linear-gradient(135deg, #0a1628 0%, #1a3a5c 50%, #1a6dd4 100%);
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+
+.stat-card {
+  text-align: center;
+  padding: 2rem 1.5rem;
+  background: rgba(255,255,255,.06);
+  border: 1px solid rgba(255,255,255,.1);
+  border-radius: var(--radius-lg);
+  transition: all var(--transition);
+
+  &:hover {
+    background: rgba(255,255,255,.1);
+    transform: translateY(-4px);
+  }
+}
+
+.stat-number {
+  font-size: 2.5rem;
+  font-weight: 900;
+  background: linear-gradient(135deg, #60a5fa, #34d399);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  margin-bottom: .25rem;
+}
+
+.stat-label {
+  font-size: .95rem;
+  font-weight: 700;
+  color: var(--color-white);
+  margin-bottom: .75rem;
+}
+
+.stat-card p {
+  font-size: .82rem;
+  color: rgba(255,255,255,.65);
+  line-height: 1.6;
+}
+
+/* ===== Design Philosophy Section ===== */
+.design-deepin {
+  padding: var(--section-padding);
+  background: var(--color-gray-50);
+}
+
+.design-grid {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 1.5rem;
+}
+
+.design-card {
+  text-align: center;
+  padding: 1.75rem 1.25rem;
+  background: var(--color-white);
+  border-radius: var(--radius-lg);
+  border: 1px solid var(--color-gray-200);
+  transition: all var(--transition);
+
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--deepin-blue-light);
+  }
+
+  h3 {
+    font-size: .95rem;
+    font-weight: 700;
+    color: var(--color-gray-900);
+    margin: .75rem 0 .5rem;
+  }
+
+  p {
+    font-size: .82rem;
+    color: var(--color-gray-500);
+    line-height: 1.6;
+  }
+}
+
+.design-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  border-radius: 50%;
+  background: var(--deepin-blue-light);
+  color: var(--deepin-blue);
+  font-size: 1.2rem;
+  transition: all var(--transition);
+}
+
+.design-card:hover .design-icon {
+  background: var(--deepin-blue);
+  color: var(--color-white);
+}
+
 /* ===== Section Header ===== */
 .section-header {
   text-align: center;
@@ -1158,6 +1340,29 @@ a {
     gap: 2rem;
   }
 
+  /* Timeline */
+  .timeline {
+    padding-left: 2rem;
+  }
+
+  .timeline-content {
+    padding-left: 1rem;
+  }
+
+  /* Stats */
+  .stats-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .stat-number {
+    font-size: 2rem;
+  }
+
+  /* Design */
+  .design-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
   /* 404 Page */
   .error-content {
     flex-direction: column;
@@ -1258,5 +1463,15 @@ a {
   .cta-actions {
     flex-direction: column;
     align-items: center;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .design-grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    margin: 0 auto;
   }
 }

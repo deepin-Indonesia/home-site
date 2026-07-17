@@ -71,49 +71,199 @@ permalink: /
     <div class="section-header">
       <h2>Apa itu deepin?</h2>
       <p class="section-subtitle">
-        Mengenal lebih dekat sistem operasi Linux yang mengutamakan keindahan dan kemudahan.
+        Sistem operasi Linux open source dengan desain memukau, dibangun oleh komunitas global untuk inovasi dan kenyamanan.
       </p>
     </div>
     <div class="intro-grid">
       <div class="intro-text">
         <p>
-          <strong>deepin</strong> adalah distribusi Linux yang berkomitmen menghadirkan pengalaman 
+          <strong>deepin</strong> adalah distribusi Linux open source yang berkomitmen menghadirkan pengalaman 
           elegan, mudah digunakan, aman, dan stabil bagi pengguna di seluruh dunia. 
-          Dikembangkan oleh <strong>Wuhan Deepin Technology Co., Ltd.</strong> sejak 2011, 
-          deepin tidak hanya menyatukan produk open source terbaik, tetapi juga mengembangkan 
-          serangkaian aplikasi seperti <strong>Deepin Store</strong>, <strong>Deepin Screenshot</strong>, 
-          <strong>Deepin Music</strong>, <strong>Deepin Movie</strong>, dan lainnya.
+          Dikembangkan oleh <strong>Wuhan Deepin Technology Co., Ltd.</strong> dan 
+          <strong>deepin Community</strong> sejak 2008, deepin telah berkembang menjadi 
+          salah satu distribusi Linux paling populer secara global.
         </p>
         <p>
-          <strong>Deepin Desktop Environment (DDE)</strong> dan <strong>Deepin Control Center</strong> 
-          dibangun dengan teknologi <strong>Qt</strong> dan <strong>DTK (Development ToolKit)</strong>. 
-          deepin menggunakan <strong>APT</strong> sebagai package manager sehingga memudahkan instalasi 
-          dan manajemen perangkat lunak. Dengan pendekatan <em>design-first</em>, deepin menjadi 
-          pilihan ideal bagi pengguna yang menginginkan Linux yang tidak hanya fungsional, 
-          tetapi juga <strong>indah dipandang dan nyaman digunakan</strong>.
+          deepin menawarkan <strong>Deepin Desktop Environment (DDE)</strong> — lingkungan desktop 
+          buatan sendiri berbasis <strong>Qt</strong> dan <strong>DTK (Development ToolKit)</strong>. 
+          Versi terbaru <strong>DDE 7.0</strong> di deepin 25 menghadirkan <strong>Treeland</strong> 
+          (window manager Wayland modern), <strong>UOS AI</strong> (asisten AI di seluruh sistem), 
+          <strong>Immutable System</strong> (perlindungan stabilitas full-stack), dan 
+          <strong>Linyaps</strong> (format paket baru yang mendekopling sistem dan aplikasi).
         </p>
         <p>
-          Berawal dari <strong>Hiweed Linux</strong> sejak 2004 — distribusi Linux pertama 
-          di Tiongkok — dan berganti nama menjadi deepin pada 2008. Kini deepin telah 
-          menyediakan <strong>50+ versi bahasa</strong> dan <strong>140+ mirror</strong> 
-          di <strong>33 negara</strong> di 6 benua, dengan lebih dari 
-          <strong>80 juta kali unduhan</strong> di seluruh dunia. deepin masuk dalam 
-          <strong>Top 10</strong> peringkat global sistem operasi open source dan 
-          menjadi <strong>distribusi Linux asal Tiongkok pertama</strong> yang mencapai 
-          pencapaian tersebut.
+          deepin menggunakan <strong>APT</strong> sebagai package manager dan menyediakan 
+          <strong>100.000+ aplikasi</strong> di App Store yang telah terverifikasi, serta 
+          <strong>40+ aplikasi bawaan</strong> siap pakai untuk produktivitas, multimedia, 
+          dan hiburan. Dengan pendekatan <em>design-first</em>, deepin menjadi pilihan ideal 
+          bagi pengguna yang menginginkan Linux yang fungsional, <strong>indah dipandang, 
+          dan nyaman digunakan</strong>.
         </p>
       </div>
       <div class="intro-highlights">
         <ul>
-          <li><i class="fas fa-check-circle"></i> <strong>APT</strong> package manager — instalasi mudah</li>
-          <li><i class="fas fa-check-circle"></i> <strong>DDE</strong> — Desktop Environment berbasis Qt</li>
-          <li><i class="fas fa-check-circle"></i> <strong>DTK</strong> — Development ToolKit untuk aplikasi native</li>
-          <li><i class="fas fa-check-circle"></i> <strong>App Store</strong> dengan 40.000+ aplikasi</li>
-          <li><i class="fas fa-check-circle"></i> UI/UX <strong>modern & konsisten</strong> di seluruh sistem</li>
-          <li><i class="fas fa-check-circle"></i> <strong>80+ juta</strong> unduhan — digunakan di 33 negara</li>
-          <li><i class="fas fa-check-circle"></i> 50+ <strong>bahasa</strong> — termasuk Bahasa Indonesia</li>
+          <li><i class="fas fa-check-circle"></i> <strong>DDE 7.0</strong> — Desktop Environment berbasis Qt + Wayland</li>
+          <li><i class="fas fa-check-circle"></i> <strong>UOS AI</strong> — Asisten AI di seluruh sistem</li>
+          <li><i class="fas fa-check-circle"></i> <strong>Immutable System</strong> — Perlindungan stabilitas full-stack</li>
+          <li><i class="fas fa-check-circle"></i> <strong>100.000+</strong> aplikasi di App Store</li>
+          <li><i class="fas fa-check-circle"></i> <strong>40+</strong> aplikasi bawaan siap pakai</li>
+          <li><i class="fas fa-check-circle"></i> <strong>34 bahasa</strong> — 1.100+ translator global</li>
+          <li><i class="fas fa-check-circle"></i> <strong>3 juta+</strong> pengguna di luar Tiongkok</li>
           <li><i class="fas fa-check-circle"></i> <strong>Gratis</strong> — open source, bebas virus & trojan</li>
         </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sejarah & Timeline deepin -->
+<section class="history-deepin">
+  <div class="container">
+    <div class="section-header">
+      <h2>Perjalanan deepin</h2>
+      <p class="section-subtitle">
+        Dari Hiweed Linux hingga deepin 25 — dua dekade inovasi open source.
+      </p>
+    </div>
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-year">2004</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>Hiweed Linux 1.0</h3>
+          <p>Distribusi Linux pertama di Tiongkok, berbasis Debian + Xfce. Cikal bakal deepin.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2008</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>deepin Community didirikan</h3>
+          <p>Hiweed Linux resmi berganti nama menjadi deepin. Komunitas open source mulai terbentuk.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2013</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>DDE 1.0 &amp; 2.0</h3>
+          <p>Deepin Desktop Environment pertama dirilis. deepin beralih dari GNOME ke desktop environment buatan sendiri.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2015</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>deepin V15 — DDE 3.0</h3>
+          <p>Basis sistem beralih ke Debian. DDE 3.0 membawa desain ikonik yang menjadi ciri khas deepin.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2020</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>deepin V20 — DDE 5.0</h3>
+          <p>DDE 5.0 dengan KWin. Desain ulang besar-besaran. deepin masuk Top 10 DistroWatch.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2023</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>deepin 23 — DDE 6.0</h3>
+          <p>Treeland (Wayland), Immutable System. Lompatan teknologi besar dengan atomic updates.</p>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-year">2025</div>
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>deepin 25 — DDE 7.0</h3>
+          <p>UOS AI, Linyaps, Treeland penuh. Era baru deepin dengan AI terintegrasi di seluruh sistem.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Data & Statistik deepin -->
+<section class="stats-deepin">
+  <div class="container">
+    <div class="section-header">
+      <h2>deepin dalam Angka</h2>
+      <p class="section-subtitle">
+        Data dan pencapaian deepin Community hingga Oktober 2024.
+      </p>
+    </div>
+    <div class="stats-grid">
+      <div class="stat-card">
+        <div class="stat-number">60+</div>
+        <div class="stat-label">Penghargaan Domestik &amp; Internasional</div>
+        <p>Termasuk Top 10 Global Open Source (2021), Outstanding Open Source Team (2023), dan Innovative Product Gold Award.</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">33.000+</div>
+        <div class="stat-label">Kontribusi Kode ke Upstream</div>
+        <p>deepin aktif berkontribusi ke Qt, Linux Kernel, KDE, GNOME, WINE, Chromium, FFmpeg, Mesa, freedesktop, dan 839+ proyek lainnya.</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3 Juta+</div>
+        <div class="stat-label">Pengguna di Luar Tiongkok</div>
+        <p>Dengan 11 komunitas cabang luar negeri: Spanyol, Brazil, Rusia, Slovakia, Turki, Ekuador, Prancis, Bolivia, Arab Saudi.</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">34</div>
+        <div class="stat-label">Bahasa Didukung</div>
+        <p>Diterjemahkan oleh 1.100+ translator dalam 15 tim proyek. Termasuk Indonesia berkat kontribusi komunitas.</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">49</div>
+        <div class="stat-label">SIG (Special Interest Group)</div>
+        <p>Kelompok kontributor dengan fokus spesifik: dari kernel, desktop, aplikasi, hingga dokumentasi dan terjemahan.</p>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">100.000+</div>
+        <div class="stat-label">Aplikasi di App Store</div>
+        <p>Mencakup office, lifestyle, hiburan, dan produktivitas — semua terverifikasi dan one-click install.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Design Philosophy -->
+<section class="design-deepin">
+  <div class="container">
+    <div class="section-header">
+      <h2>Filosofi Desain deepin</h2>
+      <p class="section-subtitle">
+        Prinsip-prinsip yang membuat deepin tampil beda dan dicintai penggunanya.
+      </p>
+    </div>
+    <div class="design-grid">
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-water"></i></div>
+        <h3>Flow Design</h3>
+        <p>Dari visual hingga interaksi, deepin mengutamakan desain yang jernih, segar, dan mulus — muda, bersemangat, bersih, sederhana namun menyeluruh.</p>
+      </div>
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-check-double"></i></div>
+        <h3>Fungsi Dulu, Baru Estetika</h3>
+        <p>Desain yang hanya fokus pada penampilan tanpa kebutuhan pengguna hanyalah dekorasi. deepin mengutamakan fungsionalitas, baru kemudian keindahan.</p>
+      </div>
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-feather-alt"></i></div>
+        <h3>Sederhana &amp; Ringan</h3>
+        <p>Memilih kebutuhan dengan cermat, menghilangkan fitur yang tidak perlu, menyembunyikan kompleksitas — antarmuka tetap simpel agar tidak membebani pikiran.</p>
+      </div>
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+        <h3>Fleksibel</h3>
+        <p>Desain yang adaptif untuk berbagai pengguna dan perangkat, menyatukan interaksi di berbagai skenario — pengalaman konsisten di mana pun.</p>
+      </div>
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-heart"></i></div>
+        <h3>Desain Emosional</h3>
+        <p>Sederhana, ramah, hidup, dan penuh jiwa — desain deepin disesuaikan dengan preferensi pengguna, menciptakan resonansi emosional yang mendalam.</p>
       </div>
     </div>
   </div>
