@@ -1,0 +1,37 @@
+# Navigasi utama deepin Indonesia
+# Setiap menu akan diarahkan ke repo terpisah
+
+main_nav:
+  - title: Beranda
+    url: /
+  - title: Download
+    url: /download/
+  - title: Release Notes
+    url: /release-notes/
+  - title: News
+    url: /news/
+  - title: Gabung Komunitas
+    url: /gabung-komunitas/
+  - title: Tentang deepin Indonesia
+    url: /tentang-deepin-id/
+
+about_deepin_nav:
+  - title: Tentang deepin
+    children:
+      - title: Product Planning
+        url: /tentang-deepin/product-planning/
+      - title: Original Apps
+        url: /tentang-deepin/original-apps/
+      - title: Desktop Environment
+        url: /tentang-deepin/desktop-environment/
+
+social_links:
+  - name: Telegram
+    url: https://t.me/Linux_deepin_ID
+    icon: telegram
+  - name: GitHub
+    url: https://github.com/deepin-Indonesia
+    icon: github
+  - name: YouTube
+    url: https://youtube.com/@deepinID
+    icon: youtube

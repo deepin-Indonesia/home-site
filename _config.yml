@@ -1,0 +1,47 @@
+# Site settings
+title: deepin Indonesia
+email: admin@deepin.id
+description: >-
+  Komunitas deepin Indonesia — Rumah bagi pengguna dan pengembang deepin di Indonesia.
+  deepin adalah distribusi Linux yang indah, mudah digunakan, dan aman.
+baseurl: ""
+url: "https://deepin.id"
+github_username: deepin-Indonesia
+telegram_group: Linux_deepin_ID
+
+# Build settings
+markdown: kramdown
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
+  - LICENSE
+
+# Collections (for future pages in separate repos)
+collections:
+  download:
+    output: true
+  release_notes:
+    output: true
+  news:
+    output: true
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+      lang: "id"
+
+sass:
+  style: compressed
+  sass_dir: assets/css

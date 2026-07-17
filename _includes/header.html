@@ -1,0 +1,48 @@
+<header class="site-header" role="banner">
+  <div class="header-container">
+    <!-- Logo -->
+    <div class="site-branding">
+      <a href="{{ '/' | relative_url }}" class="site-logo">
+        <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="{{ site.title }} logo" width="48" height="48">
+        <div class="site-title-group">
+          <span class="site-title">deepin Indonesia</span>
+          <span class="site-tagline">Komunitas Pengguna deepin di Indonesia</span>
+        </div>
+      </a>
+    </div>
+
+    <!-- Mobile menu toggle -->
+    <button class="menu-toggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span class="menu-icon-bar"></span>
+      <span class="menu-icon-bar"></span>
+      <span class="menu-icon-bar"></span>
+    </button>
+
+    <!-- Main Navigation -->
+    <nav class="main-navigation" role="navigation" aria-label="Main navigation">
+      <ul class="nav-menu">
+        {% for item in site.data.navigation.main_nav %}
+        <li class="nav-item {% if page.url == item.url %}active{% endif %}">
+          <a href="{{ item.url | relative_url }}" class="nav-link">{{ item.title }}</a>
+        </li>
+        {% endfor %}
+
+        <!-- Tentang deepin dropdown -->
+        {% for item in site.data.navigation.about_deepin_nav %}
+        <li class="nav-item dropdown">
+          <button class="nav-link dropdown-toggle" aria-haspopup="true" aria-expanded="false">
+            {{ item.title }} <i class="fas fa-chevron-down dropdown-arrow"></i>
+          </button>
+          <ul class="dropdown-menu" aria-label="{{ item.title }} submenu">
+            {% for child in item.children %}
+            <li class="dropdown-item">
+              <a href="{{ child.url | relative_url }}" class="dropdown-link">{{ child.title }}</a>
+            </li>
+            {% endfor %}
+          </ul>
+        </li>
+        {% endfor %}
+      </ul>
+    </nav>
+  </div>
+</header>

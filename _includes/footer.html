@@ -1,0 +1,63 @@
+<footer class="site-footer" role="contentinfo">
+  <div class="footer-container">
+    <div class="footer-grid">
+      <!-- Brand -->
+      <div class="footer-brand">
+        <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia" width="40" height="40">
+        <h3>deepin Indonesia</h3>
+        <p>Komunitas resmi pengguna dan pengembang deepin di Indonesia. Mari bersama membangun ekosistem deepin yang lebih baik.</p>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-links">
+        <h4>Tautan Cepat</h4>
+        <ul>
+          {% for item in site.data.navigation.main_nav %}
+          <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- About deepin Links -->
+      <div class="footer-links">
+        <h4>Tentang deepin</h4>
+        <ul>
+          {% for item in site.data.navigation.about_deepin_nav %}
+            {% for child in item.children %}
+            <li><a href="{{ child.url | relative_url }}">{{ child.title }}</a></li>
+            {% endfor %}
+          {% endfor %}
+        </ul>
+      </div>
+
+      <!-- Social & Community -->
+      <div class="footer-social">
+        <h4>Komunitas</h4>
+        <div class="social-icons">
+          <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener noreferrer" aria-label="Telegram deepin Indonesia" class="social-icon">
+            <i class="fab fa-telegram-plane"></i>
+          </a>
+          <a href="https://github.com/deepin-Indonesia" target="_blank" rel="noopener noreferrer" aria-label="GitHub deepin Indonesia" class="social-icon">
+            <i class="fab fa-github"></i>
+          </a>
+          <a href="https://youtube.com/@deepinID" target="_blank" rel="noopener noreferrer" aria-label="YouTube deepin Indonesia" class="social-icon">
+            <i class="fab fa-youtube"></i>
+          </a>
+        </div>
+        <p class="footer-community-link">
+          <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener">
+            <i class="fab fa-telegram-plane"></i> Gabung Telegram deepin Indonesia
+          </a>
+        </p>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: '%Y' }} deepin Indonesia. Dibangun dengan <i class="fas fa-heart"></i> oleh komunitas.</p>
+      <p class="footer-credit">
+        deepin® adalah merek dagang terdaftar dari
+        <a href="https://www.deepin.org" target="_blank" rel="noopener">deepin</a>.
+      </p>
+    </div>
+  </div>
+</footer>
