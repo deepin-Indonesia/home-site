@@ -185,13 +185,11 @@ a {
 .site-logo {
   display: flex;
   align-items: center;
-  gap: .75rem;
   text-decoration: none;
 
   img {
-    width: 42px;
-    height: 42px;
-    border-radius: var(--radius-sm);
+    height: 34px;
+    width: auto;
   }
 }
 
