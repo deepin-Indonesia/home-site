@@ -9,7 +9,7 @@ permalink: /
   <div class="hero-overlay"></div>
   <div class="hero-content container">
     <div class="hero-text">
-      <img src="{{ '/assets/images/deepin-id-text_nobg.png' | relative_url }}" alt="deepin Indonesia" class="hero-logo-text">
+      <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia" class="hero-logo-text">
       <p class="hero-description">
         Selamat datang di komunitas <strong>deepin Indonesia</strong> — tempat berkumpulnya pengguna dan pengembang deepin di tanah air. 
         Mari bersama menjelajahi sistem operasi Linux yang indah, modern, dan mudah digunakan.
