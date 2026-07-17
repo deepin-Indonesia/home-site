@@ -572,30 +572,29 @@ a {
 /* ===== Timeline Section ===== */
 .history-deepin {
   padding: var(--section-padding);
-  background: var(--color-white);
+  background: var(--color-gray-50);
 }
 
 .timeline {
-  max-width: 720px;
+  max-width: 640px;
   margin: 0 auto;
   position: relative;
-  padding-left: 3rem;
 
   &::before {
     content: '';
     position: absolute;
-    left: 0;
+    left: 18px;
     top: 0;
     bottom: 0;
-    width: 3px;
-    background: linear-gradient(180deg, var(--deepin-blue) 0%, var(--color-teal) 50%, #34d399 100%);
-    border-radius: 2px;
+    width: 2px;
+    background: var(--color-gray-200);
   }
 }
 
 .timeline-item {
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
+  padding-left: 3rem;
 
   &:last-child {
     margin-bottom: 0;
@@ -604,44 +603,54 @@ a {
 
 .timeline-year {
   display: inline-block;
-  background: var(--deepin-blue);
+  background: linear-gradient(135deg, var(--deepin-blue) 0%, #2196f3 100%);
   color: var(--color-white);
-  font-size: .8rem;
+  font-size: .78rem;
   font-weight: 700;
-  padding: .25rem .7rem;
+  padding: .2rem .65rem;
   border-radius: 50px;
-  margin-bottom: .4rem;
+  margin-bottom: .35rem;
 }
 
 .timeline-dot {
   position: absolute;
-  left: -3rem;
-  top: .5rem;
-  width: 14px;
-  height: 14px;
+  left: 0;
+  top: .55rem;
+  width: 12px;
+  height: 12px;
   background: var(--color-white);
-  border: 3px solid var(--deepin-blue);
+  border: 2.5px solid var(--deepin-blue);
   border-radius: 50%;
-  z-index: 2;
-  transform: translateX(5px);
+  z-index: 1;
+  transform: translateX(12px);
 }
 
 .timeline-item:nth-child(even) .timeline-dot {
   border-color: var(--color-teal);
 }
 
+.timeline-item:last-child .timeline-dot {
+  background: var(--deepin-blue);
+  border-color: var(--deepin-blue);
+}
+
 .timeline-content {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+
   h3 {
-    font-size: 1.05rem;
+    font-size: 1rem;
     font-weight: 700;
     color: var(--color-gray-900);
-    margin-bottom: .2rem;
+    margin-bottom: .15rem;
   }
 
   p {
-    font-size: .9rem;
+    font-size: .85rem;
     color: var(--color-gray-500);
-    line-height: 1.6;
+    line-height: 1.55;
   }
 }
 
@@ -1343,11 +1352,7 @@ a {
 
   /* Timeline */
   .timeline {
-    padding-left: 2rem;
-  }
-
-  .timeline-content {
-    padding-left: 1rem;
+    padding-left: 0;
   }
 
   /* Stats */
