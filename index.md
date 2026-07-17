@@ -116,6 +116,48 @@ permalink: /
   </div>
 </section>
 
+<!-- Why deepin Section -->
+{% include why-deepin.html %}
+
+<!-- Design Philosophy -->
+<section class="design-deepin">
+  <div class="container">
+    <div class="section-header">
+      <h2>Filosofi Desain deepin</h2>
+      <p class="section-subtitle">
+        Prinsip-prinsip yang membuat deepin tampil beda dan dicintai penggunanya.
+      </p>
+    </div>
+    <div class="design-grid">
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-water"></i></div>
+        <h3>Flow Design</h3>
+        <p>Dari visual hingga interaksi, deepin mengutamakan desain yang jernih, segar, dan mulus — muda, bersemangat, bersih, sederhana namun menyeluruh.</p>
+      </div>
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-check-double"></i></div>
+        <h3>Fungsi Dulu, Baru Estetika</h3>
+        <p>Desain yang hanya fokus pada penampilan tanpa kebutuhan pengguna hanyalah dekorasi. deepin mengutamakan fungsionalitas, baru kemudian keindahan.</p>
+      </div>
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-feather-alt"></i></div>
+        <h3>Sederhana &amp; Ringan</h3>
+        <p>Memilih kebutuhan dengan cermat, menghilangkan fitur yang tidak perlu, menyembunyikan kompleksitas — antarmuka tetap simpel agar tidak membebani pikiran.</p>
+      </div>
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-expand-arrows-alt"></i></div>
+        <h3>Fleksibel</h3>
+        <p>Desain yang adaptif untuk berbagai pengguna dan perangkat, menyatukan interaksi di berbagai skenario — pengalaman konsisten di mana pun.</p>
+      </div>
+      <div class="design-card">
+        <div class="design-icon"><i class="fas fa-heart"></i></div>
+        <h3>Desain Emosional</h3>
+        <p>Sederhana, ramah, hidup, dan penuh jiwa — desain deepin disesuaikan dengan preferensi pengguna, menciptakan resonansi emosional yang mendalam.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- Sejarah & Timeline deepin -->
 <section class="history-deepin">
   <div class="container">
@@ -225,45 +267,6 @@ permalink: /
         <div class="stat-number">100.000+</div>
         <div class="stat-label">Aplikasi di App Store</div>
         <p>Mencakup office, lifestyle, hiburan, dan produktivitas — semua terverifikasi dan one-click install.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- Design Philosophy -->
-<section class="design-deepin">
-  <div class="container">
-    <div class="section-header">
-      <h2>Filosofi Desain deepin</h2>
-      <p class="section-subtitle">
-        Prinsip-prinsip yang membuat deepin tampil beda dan dicintai penggunanya.
-      </p>
-    </div>
-    <div class="design-grid">
-      <div class="design-card">
-        <div class="design-icon"><i class="fas fa-water"></i></div>
-        <h3>Flow Design</h3>
-        <p>Dari visual hingga interaksi, deepin mengutamakan desain yang jernih, segar, dan mulus — muda, bersemangat, bersih, sederhana namun menyeluruh.</p>
-      </div>
-      <div class="design-card">
-        <div class="design-icon"><i class="fas fa-check-double"></i></div>
-        <h3>Fungsi Dulu, Baru Estetika</h3>
-        <p>Desain yang hanya fokus pada penampilan tanpa kebutuhan pengguna hanyalah dekorasi. deepin mengutamakan fungsionalitas, baru kemudian keindahan.</p>
-      </div>
-      <div class="design-card">
-        <div class="design-icon"><i class="fas fa-feather-alt"></i></div>
-        <h3>Sederhana &amp; Ringan</h3>
-        <p>Memilih kebutuhan dengan cermat, menghilangkan fitur yang tidak perlu, menyembunyikan kompleksitas — antarmuka tetap simpel agar tidak membebani pikiran.</p>
-      </div>
-      <div class="design-card">
-        <div class="design-icon"><i class="fas fa-expand-arrows-alt"></i></div>
-        <h3>Fleksibel</h3>
-        <p>Desain yang adaptif untuk berbagai pengguna dan perangkat, menyatukan interaksi di berbagai skenario — pengalaman konsisten di mana pun.</p>
-      </div>
-      <div class="design-card">
-        <div class="design-icon"><i class="fas fa-heart"></i></div>
-        <h3>Desain Emosional</h3>
-        <p>Sederhana, ramah, hidup, dan penuh jiwa — desain deepin disesuaikan dengan preferensi pengguna, menciptakan resonansi emosional yang mendalam.</p>
       </div>
     </div>
   </div>
