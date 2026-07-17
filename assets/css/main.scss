@@ -943,7 +943,7 @@ a {
 /* ===== Footer ===== */
 .site-footer {
   background: var(--color-gray-900);
-  color: #b0b8c1;
+  color: #c8d2dc;
   font-size: .9rem;
 }
 
@@ -980,7 +980,7 @@ a {
   opacity: .9;
 
   a {
-    color: #ff6b6b;
+    color: #ff8a80;
     font-weight: 600;
 
     &:hover {
@@ -989,7 +989,7 @@ a {
   }
 
   strong {
-    color: #ff6b6b;
+    color: #ff8a80;
   }
 }
 
@@ -1003,7 +1003,7 @@ a {
   }
 
   a {
-    color: var(--color-gray-300);
+    color: #c8d2dc;
 
     &:hover {
       color: var(--color-white);
@@ -1030,7 +1030,7 @@ a {
   }
 
   a {
-    color: var(--color-gray-400);
+    color: #c0c8d2;
     font-size: .85rem;
     transition: color var(--transition);
 

@@ -29,11 +29,12 @@ permalink: /
     <div class="hero-video">
       <div class="video-wrapper">
         <iframe
-          src="https://www.youtube-nocookie.com/embed/w0fyT59D6nw?rel=0&modestbranding=1"
+          src="https://www.youtube-nocookie.com/embed/w0fyT59D6nw?rel=0&amp;modestbranding=1"
           title="deepin 25 — Sistem Operasi Linux Modern dengan Desktop Environment DDE yang Cantik"
           frameborder="0"
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          allowfullscreen>
+          allowfullscreen
+          loading="lazy">
         </iframe>
       </div>
       <p class="video-caption">Tonton pengenalan <strong>deepin 25</strong> — Lebih indah, lebih cepat, lebih andal.</p>
