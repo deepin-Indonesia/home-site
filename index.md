@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Beranda
-description: deepin Indonesia — Komunitas resmi pengguna deepin Linux di Indonesia. Download deepin 25.2, gabung komunitas, baca berita dan release notes terbaru. deepin adalah sistem operasi Linux open source dengan UI modern, desktop environment DDE yang cantik, serta keamanan dan privasi terbaik.
+description: deepin Indonesia — Komunitas resmi pengguna deepin Linux di Indonesia. Download deepin 25.2, gabung komunitas, baca berita, tips & tutorial deepin. deepin adalah sistem operasi Linux open source dengan DDE berbasis Qt, APT package manager, UI modern, serta keamanan dan privasi terbaik.
 permalink: /
 ---
 
@@ -10,12 +10,12 @@ permalink: /
   <div class="hero-overlay"></div>
   <div class="hero-content container">
     <div class="hero-text">
-      <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia — Komunitas Linux deepin di Indonesia" class="hero-logo-text">
+      <img src="{{ '/assets/images/deepin-id.png' | relative_url }}" alt="deepin Indonesia — Komunitas Linux deepin Indonesia" class="hero-logo-text">
       <p class="hero-description">
         Selamat datang di komunitas <strong>deepin Indonesia</strong> — pusat informasi dan diskusi bagi pengguna 
         <strong>deepin Linux</strong> di Indonesia. deepin adalah sistem operasi Linux modern dengan 
         <strong>Deepin Desktop Environment (DDE)</strong> yang memukau. Dapatkan pengalaman komputasi 
-        yang indah, cepat, dan aman bersama kami.
+        yang indah, cepat, dan aman.
       </p>
       <div class="hero-actions">
         <a href="/download/" class="btn btn-primary">
@@ -76,34 +76,42 @@ permalink: /
     <div class="intro-grid">
       <div class="intro-text">
         <p>
-          <strong>deepin</strong> adalah distribusi Linux berbasis Debian yang dikembangkan oleh 
-          <strong>deepin Technology</strong> (anak perusahaan UnionTech). deepin terkenal dengan 
-          <strong>Deepin Desktop Environment (DDE)</strong> — lingkungan desktop buatan sendiri 
-          yang menawarkan antarmuka pengguna (UI) yang modern, elegan, dan intuitif.
+          <strong>deepin</strong> adalah distribusi Linux yang berkomitmen menghadirkan pengalaman 
+          elegan, mudah digunakan, aman, dan stabil bagi pengguna di seluruh dunia. 
+          Dikembangkan oleh <strong>Wuhan Deepin Technology Co., Ltd.</strong> sejak 2011, 
+          deepin tidak hanya menyatukan produk open source terbaik, tetapi juga mengembangkan 
+          serangkaian aplikasi seperti <strong>Deepin Store</strong>, <strong>Deepin Screenshot</strong>, 
+          <strong>Deepin Music</strong>, <strong>Deepin Movie</strong>, dan lainnya.
         </p>
         <p>
-          Tidak seperti distro Linux pada umumnya, deepin hadir dengan berbagai aplikasi bawaan 
-          seperti <strong>Deepin Music</strong>, <strong>Deepin Movie</strong>, 
-          <strong>Deepin Screen Capture</strong>, <strong>Deepin App Store</strong>, dan masih banyak lagi. 
-          Semua dirancang dengan desain yang konsisten dan pengalaman pengguna yang mulus.
+          <strong>Deepin Desktop Environment (DDE)</strong> dan <strong>Deepin Control Center</strong> 
+          dibangun dengan teknologi <strong>Qt</strong> dan <strong>DTK (Development ToolKit)</strong>. 
+          deepin menggunakan <strong>APT</strong> sebagai package manager sehingga memudahkan instalasi 
+          dan manajemen perangkat lunak. Dengan pendekatan <em>design-first</em>, deepin menjadi 
+          pilihan ideal bagi pengguna yang menginginkan Linux yang tidak hanya fungsional, 
+          tetapi juga <strong>indah dipandang dan nyaman digunakan</strong>.
         </p>
         <p>
-          deepin menggunakan <strong>DTK (Development ToolKit)</strong> sebagai fondasi 
-          pengembangan aplikasi dan desktop environment-nya. Dengan pendekatan <em>design-first</em>, 
-          deepin menjadi pilihan ideal bagi pengguna yang menginginkan Linux yang tidak hanya 
-          fungsional, tetapi juga <strong>indah dipandang dan nyaman digunakan</strong>.
+          Berawal dari <strong>Hiweed Linux</strong> sejak 2004 — distribusi Linux pertama 
+          di Tiongkok — dan berganti nama menjadi deepin pada 2008. Kini deepin telah 
+          menyediakan <strong>50+ versi bahasa</strong> dan <strong>140+ mirror</strong> 
+          di <strong>33 negara</strong> di 6 benua, dengan lebih dari 
+          <strong>80 juta kali unduhan</strong> di seluruh dunia. deepin masuk dalam 
+          <strong>Top 10</strong> peringkat global sistem operasi open source dan 
+          menjadi <strong>distribusi Linux asal Tiongkok pertama</strong> yang mencapai 
+          pencapaian tersebut.
         </p>
       </div>
       <div class="intro-highlights">
         <ul>
-          <li><i class="fas fa-check-circle"></i> Berbasis <strong>Debian Stable</strong> — stabil dan andal</li>
-          <li><i class="fas fa-check-circle"></i> <strong>DDE</strong> — Desktop Environment buatan sendiri</li>
+          <li><i class="fas fa-check-circle"></i> <strong>APT</strong> package manager — instalasi mudah</li>
+          <li><i class="fas fa-check-circle"></i> <strong>DDE</strong> — Desktop Environment berbasis Qt</li>
           <li><i class="fas fa-check-circle"></i> <strong>DTK</strong> — Development ToolKit untuk aplikasi native</li>
           <li><i class="fas fa-check-circle"></i> <strong>App Store</strong> dengan 40.000+ aplikasi</li>
           <li><i class="fas fa-check-circle"></i> UI/UX <strong>modern & konsisten</strong> di seluruh sistem</li>
-          <li><i class="fas fa-check-circle"></i> <strong>Open Source</strong> — bebas dan transparan</li>
-          <li><i class="fas fa-check-circle"></i> Mendukung <strong>multimedia</strong> dan produktivitas</li>
-          <li><i class="fas fa-check-circle"></i> Fokus pada <strong>privasi & keamanan</strong> pengguna</li>
+          <li><i class="fas fa-check-circle"></i> <strong>80+ juta</strong> unduhan — digunakan di 33 negara</li>
+          <li><i class="fas fa-check-circle"></i> 50+ <strong>bahasa</strong> — termasuk Bahasa Indonesia</li>
+          <li><i class="fas fa-check-circle"></i> <strong>Gratis</strong> — open source, bebas virus & trojan</li>
         </ul>
       </div>
     </div>

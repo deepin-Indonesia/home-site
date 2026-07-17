@@ -10,6 +10,8 @@ main_nav:
     url: /release-notes/
   - title: News
     url: /news/
+  - title: Tips deepin
+    url: /news/tag/tips-deepin/
   - title: Gabung Komunitas
     url: https://t.me/Linux_deepin_ID
 
