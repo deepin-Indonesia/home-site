@@ -735,6 +735,130 @@ a {
   flex-wrap: wrap;
 }
 
+/* ===== 404 Page ===== */
+.page-404 {
+  min-height: 80vh;
+  display: flex;
+  align-items: center;
+  background: linear-gradient(180deg, #f8fafc 0%, #e8f0fe 100%);
+}
+
+.error-content {
+  display: flex;
+  align-items: center;
+  gap: 4rem;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 3rem 0;
+}
+
+.error-visual {
+  flex-shrink: 0;
+  text-align: center;
+}
+
+.error-icon {
+  font-size: 5rem;
+  color: var(--deepin-blue);
+  opacity: .3;
+  margin-bottom: .5rem;
+}
+
+.error-code {
+  font-size: 8rem;
+  font-weight: 900;
+  line-height: 1;
+  background: linear-gradient(135deg, var(--deepin-blue), var(--color-teal));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.error-text {
+  h1 {
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: var(--color-gray-900);
+    margin-bottom: .75rem;
+  }
+}
+
+.error-message {
+  color: var(--color-gray-500);
+  line-height: 1.7;
+  margin-bottom: 1.5rem;
+  max-width: 480px;
+}
+
+.error-actions {
+  display: flex;
+  gap: .75rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
+}
+
+.btn-outline-dark {
+  background: transparent;
+  color: var(--color-gray-700);
+  border-color: var(--color-gray-300);
+
+  &:hover {
+    background: var(--color-gray-100);
+    border-color: var(--color-gray-400);
+    color: var(--color-gray-900);
+    transform: translateY(-1px);
+  }
+}
+
+.error-suggestions {
+  margin-bottom: 1.5rem;
+
+  h3 {
+    font-size: .95rem;
+    font-weight: 600;
+    color: var(--color-gray-700);
+    margin-bottom: .75rem;
+  }
+
+  ul {
+    list-style: none;
+  }
+
+  li {
+    margin-bottom: .4rem;
+  }
+
+  a {
+    font-size: .9rem;
+    color: var(--color-gray-600);
+    transition: color var(--transition);
+
+    &:hover {
+      color: var(--deepin-blue);
+    }
+  }
+
+  i {
+    font-size: .65rem;
+    margin-right: .5rem;
+    color: var(--deepin-blue);
+  }
+}
+
+.error-help {
+  font-size: .82rem;
+  color: var(--color-gray-400);
+
+  a {
+    color: var(--deepin-blue);
+    font-weight: 500;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
 /* ===== Footer ===== */
 .site-footer {
   background: var(--color-gray-900);
@@ -915,6 +1039,28 @@ a {
     width: 96px;
     height: 96px;
     margin: 0 auto;
+  }
+
+  /* 404 Page */
+  .error-content {
+    flex-direction: column;
+    gap: 2rem;
+    text-align: center;
+    padding: 3rem 0;
+  }
+
+  .error-message {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .error-actions {
+    justify-content: center;
+  }
+
+  .error-suggestions {
+    text-align: left;
+    display: inline-block;
   }
 
   /* Mobile Navigation */

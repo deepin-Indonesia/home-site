@@ -1,6 +1,7 @@
 ---
 layout: default
 title: Beranda
+description: deepin Indonesia — Komunitas resmi pengguna deepin Linux di Indonesia. Download deepin, gabung komunitas, baca berita dan release notes terbaru. deepin adalah OS Linux dengan UI modern dan cantik.
 permalink: /
 ---
 

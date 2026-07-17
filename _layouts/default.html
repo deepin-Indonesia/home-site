@@ -7,16 +7,69 @@
 
   <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
   <meta name="description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="keywords" content="deepin, deepin Indonesia, deepin Linux, Linux Indonesia, deepin OS, komunitas deepin, download deepin, deepin 25, DDE, desktop environment, open source Indonesia">
+  <meta name="author" content="deepin Indonesia">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#1a6dd4">
+  <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'index.html','' }}">
 
-  <!-- Open Graph -->
+  <!-- Open Graph / Facebook -->
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:site_name" content="{{ site.title }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
   <meta property="og:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:type" content="website">
+  <meta property="og:type" content="{% if page.url == '/' %}website{% else %}article{% endif %}">
   <meta property="og:url" content="{{ site.url }}{{ page.url }}">
   <meta property="og:image" content="{{ site.url }}/assets/images/deepin-id.png">
+  <meta property="og:image:width" content="512">
+  <meta property="og:image:height" content="512">
+
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="@deepinID">
+  <meta name="twitter:title" content="{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}">
+  <meta name="twitter:description" content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}/assets/images/deepin-id.png">
+
+  <!-- JSON-LD Structured Data — untuk Google, Gemini, ChatGPT, dll -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "deepin Indonesia",
+    "alternateName": "Komunitas deepin Indonesia",
+    "url": "{{ site.url }}",
+    "logo": "{{ site.url }}/assets/images/deepin-id.png",
+    "description": "{{ site.description | strip_newlines | strip }}",
+    "foundingDate": "2024",
+    "email": "{{ site.email }}",
+    "sameAs": [
+      "https://t.me/Linux_deepin_ID",
+      "https://github.com/deepin-Indonesia",
+      "https://www.youtube.com/playlist?list=PLaZr9JPhal-4"
+    ],
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "contactType": "community",
+      "url": "https://t.me/Linux_deepin_ID"
+    },
+    "member": {
+      "@type": "Person",
+      "name": "Zaky NR",
+      "jobTitle": "Lead, deepin Indonesia Community",
+      "description": "Official deepin Global Ambassador for Indonesia",
+      "url": "https://zaky.siberin.id/",
+      "sameAs": [
+        "https://github.com/JackTekno",
+        "https://zaky.siberin.id/"
+      ]
+    }
+  }
+  </script>
 
   <!-- Favicon -->
   <link rel="icon" type="image/png" href="{{ '/assets/images/deepin-id.png' | relative_url }}">
+  <link rel="apple-touch-icon" href="{{ '/assets/images/deepin-id.png' | relative_url }}">
 
   <!-- Stylesheet -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
