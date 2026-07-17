@@ -74,14 +74,15 @@ permalink: /
   </div>
 </section>
 
+<!-- Why deepin Section -->
+{% include why-deepin.html %}
+
 <!-- Community Lead Section -->
 <section class="community-lead">
   <div class="container">
     <div class="lead-card">
       <div class="lead-avatar">
-        <div class="lead-avatar-icon">
-          <i class="fas fa-user-astronaut"></i>
-        </div>
+        <img src="{{ '/assets/images/zaky-nr.jpg' | relative_url }}" alt="Zaky NR" class="lead-avatar-img">
       </div>
       <div class="lead-info">
         <span class="lead-badge">Official deepin Global Ambassador for Indonesia</span>
@@ -91,16 +92,21 @@ permalink: /
           Memimpin dan menggerakkan komunitas deepin di Indonesia. Berdedikasi untuk memperkenalkan 
           deepin ke lebih banyak pengguna di tanah air melalui edukasi, event, dan kolaborasi.
         </p>
-        <a href="https://zaky.siberin.id/" target="_blank" rel="noopener" class="btn btn-primary">
-          <i class="fas fa-globe"></i> Kunjungi Website
-        </a>
+        <div class="lead-actions">
+          <a href="https://zaky.siberin.id/" target="_blank" rel="noopener" class="btn btn-sm btn-primary">
+            <i class="fas fa-globe"></i> Website
+          </a>
+          <a href="https://github.com/JackTekno" target="_blank" rel="noopener" class="btn btn-sm btn-github">
+            <i class="fab fa-github"></i> GitHub
+          </a>
+          <a href="https://zaky.siberin.id/#kontak" target="_blank" rel="noopener" class="btn btn-sm btn-outline-lead">
+            <i class="fas fa-envelope"></i> Kontak
+          </a>
+        </div>
       </div>
     </div>
   </div>
 </section>
-
-<!-- Why deepin Section -->
-{% include why-deepin.html %}
 
 <!-- Call to Action -->
 <section class="cta">
