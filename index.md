@@ -213,7 +213,7 @@ permalink: /
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>deepin 23 — DDE 6.0</h3>
-          <p>Treeland (Wayland), Immutable System. Lompatan teknologi besar dengan atomic updates.</p>
+          <p>Treeland (Wayland), Immutable System. DDE rekonstruksi dengan Wayland dan sistem atomic.</p>
         </div>
       </div>
       <div class="timeline-item">
@@ -221,7 +221,7 @@ permalink: /
         <div class="timeline-dot"></div>
         <div class="timeline-content">
           <h3>deepin 25 — DDE 7.0</h3>
-          <p>UOS AI, Linyaps, Treeland penuh. Era baru deepin dengan AI terintegrasi di seluruh sistem.</p>
+          <p>DDE 7.0, UOS AI, Linyaps, dan Immutable System. Antarmuka baru dengan AI terintegrasi di seluruh sistem.</p>
         </div>
       </div>
     </div>
