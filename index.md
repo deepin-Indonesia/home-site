@@ -308,9 +308,6 @@ permalink: /
   </div>
 </section>
 
-<!-- Why deepin Section -->
-{% include why-deepin.html %}
-
 <!-- Community Lead Section -->
 <section class="community-lead">
   <div class="container">
