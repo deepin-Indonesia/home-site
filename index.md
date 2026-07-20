@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Home
-description: deepin Indonesia — Komunitas resmi pengguna deepin Linux di Indonesia. Download deepin 25.2, gabung komunitas, baca berita, tips & tutorial deepin. deepin adalah sistem operasi Linux open source dengan DDE berbasis Qt, APT package manager, UI modern, serta keamanan dan privasi terbaik.
+description: deepin Indonesia — Komunitas resmi pengguna deepin Linux di Indonesia. Download deepin 25.2.0, gabung komunitas, baca berita, tips & tutorial deepin. deepin adalah sistem operasi Linux open source dengan DDE berbasis Qt, APT package manager, UI modern, serta keamanan dan privasi terbaik.
 permalink: /
 ---
 
@@ -42,7 +42,7 @@ permalink: /
   </div>
 </section>
 
-<!-- Headline: Versi Terbaru deepin 25.2 -->
+<!-- Headline: Versi Terbaru deepin 25.2.0 -->
 <section class="headline">
   <div class="container">
     <div class="headline-card">
@@ -50,9 +50,9 @@ permalink: /
         <i class="fas fa-newspaper"></i> Rilis Terbaru
       </div>
       <div class="headline-body">
-        <h2>deepin 25.2 Kini Tersedia!</h2>
+        <h2>deepin 25.2.0 Kini Tersedia!</h2>
         <p>
-          Versi terbaru <strong>deepin 25.2</strong> hadir dengan berbagai peningkatan performa, 
+          Versi terbaru <strong>deepin 25.2.0</strong> hadir dengan berbagai peningkatan performa, 
           perbaikan bug, dan fitur baru yang membuat pengalaman menggunakan deepin semakin lancar. 
           Update ini membawa penyempurnaan pada <strong>Deepin Desktop Environment (DDE)</strong>, 
           dukungan hardware yang lebih luas, serta peningkatan keamanan sistem.
