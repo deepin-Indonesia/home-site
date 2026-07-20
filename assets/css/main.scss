@@ -569,6 +569,36 @@ a {
   }
 }
 
+.distrowatch-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: .4rem;
+  margin-top: 1rem;
+  padding: .6rem 1rem;
+  background: var(--color-gray-50);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-md);
+  font-size: .85rem;
+  color: var(--color-gray-600);
+  text-decoration: none;
+  transition: all var(--transition);
+
+  i { color: var(--deepin-blue); }
+
+  strong { color: var(--color-gray-800); }
+
+  .fa-external-link-alt {
+    font-size: .7rem;
+    margin-left: .15rem;
+  }
+
+  &:hover {
+    border-color: var(--deepin-blue);
+    background: var(--deepin-blue-light);
+    color: var(--deepin-blue-dark);
+  }
+}
+
 /* ===== Timeline Section ===== */
 .history-deepin {
   padding: var(--section-padding);

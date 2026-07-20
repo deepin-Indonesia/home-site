@@ -111,6 +111,10 @@ permalink: /
           <li><i class="fas fa-check-circle"></i> <strong>3 juta+</strong> pengguna di luar Tiongkok</li>
           <li><i class="fas fa-check-circle"></i> <strong>Gratis</strong> — open source, bebas virus & trojan</li>
         </ul>
+
+        <a href="https://distrowatch.com/table.php?distribution=deepin" target="_blank" rel="noopener" class="distrowatch-badge">
+          <i class="fas fa-chart-bar"></i> Lihat deepin di <strong>DistroWatch</strong> — peringkat & statistik <i class="fas fa-external-link-alt"></i>
+        </a>
       </div>
     </div>
   </div>
