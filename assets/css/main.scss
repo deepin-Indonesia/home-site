@@ -573,29 +573,31 @@ a {
   display: inline-flex;
   align-items: center;
   gap: .4rem;
-  margin-top: 1rem;
-  padding: .6rem 1rem;
+  margin: .25rem auto 0;
+  padding: .45rem .9rem;
   background: var(--color-gray-50);
   border: 1px solid var(--color-gray-200);
-  border-radius: var(--radius-md);
-  font-size: .85rem;
-  color: var(--color-gray-600);
+  border-radius: 50px;
+  font-size: .8rem;
+  color: var(--color-gray-500);
   text-decoration: none;
   transition: all var(--transition);
 
-  i { color: var(--deepin-blue); }
+  i.fa-chart-bar { color: var(--deepin-blue); }
 
-  strong { color: var(--color-gray-800); }
+  strong { color: var(--color-gray-700); font-weight: 600; }
 
   .fa-external-link-alt {
-    font-size: .7rem;
-    margin-left: .15rem;
+    font-size: .65rem;
+    opacity: .5;
   }
 
   &:hover {
     border-color: var(--deepin-blue);
     background: var(--deepin-blue-light);
     color: var(--deepin-blue-dark);
+
+    .fa-external-link-alt { opacity: 1; }
   }
 }
 

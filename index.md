@@ -73,6 +73,10 @@ permalink: /
       <p class="section-subtitle">
         Sistem operasi Linux open source dengan desain memukau, dibangun oleh komunitas global untuk inovasi dan kenyamanan.
       </p>
+
+      <a href="https://distrowatch.com/table.php?distribution=deepin" target="_blank" rel="noopener" class="distrowatch-badge">
+        <i class="fas fa-chart-bar"></i> deepin di <strong>DistroWatch</strong> <i class="fas fa-external-link-alt"></i>
+      </a>
     </div>
     <div class="intro-grid">
       <div class="intro-text">
@@ -111,10 +115,6 @@ permalink: /
           <li><i class="fas fa-check-circle"></i> <strong>3 juta+</strong> pengguna di luar Tiongkok</li>
           <li><i class="fas fa-check-circle"></i> <strong>Gratis</strong> — open source, bebas virus & trojan</li>
         </ul>
-
-        <a href="https://distrowatch.com/table.php?distribution=deepin" target="_blank" rel="noopener" class="distrowatch-badge">
-          <i class="fas fa-chart-bar"></i> Lihat deepin di <strong>DistroWatch</strong> — peringkat & statistik <i class="fas fa-external-link-alt"></i>
-        </a>
       </div>
     </div>
   </div>
