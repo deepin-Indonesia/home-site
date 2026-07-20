@@ -286,7 +286,7 @@ permalink: /
     <div class="section-header">
       <h2>Mengapa deepin Indonesia?</h2>
       <p class="section-subtitle">
-        deepin Indonesia adalah komunitas resmi yang didedikasikan untuk mendukung pengguna deepin di Indonesia. 
+        deepin Indonesia adalah komunitas resmi pengguna deepin di tanah air, didedikasikan untuk mendukung dan memperkenalkan deepin ke lebih banyak pengguna Indonesia. 
         Kami menyediakan panduan, diskusi, dan event seputar deepin dalam Bahasa Indonesia.
       </p>
     </div>
