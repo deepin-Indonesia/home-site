@@ -15,18 +15,19 @@ bundle exec jekyll serve
 
 ```
 home-site/
-├── _theme/              ← Git submodule → deepin-theme-site
+├── _theme/              ← Git submodule → deepin-theme-site (Jekyll theme gem)
 ├── index.md             ← Halaman home
-├── _config.yml          ← Konfigurasi Jekyll + override path tema
-├── assets/              ← CSS, JS, images (diproses Jekyll)
+├── 404.html             ← Custom 404 page
+├── _config.yml          ← Konfigurasi Jekyll + theme
+├── assets/              ← CSS, JS, images (override theme)
 ├── robots.txt           ← SEO
-├── Gemfile              ← Ruby dependencies
+├── Gemfile              ← Ruby dependencies + theme gem path
 └── .gitmodules          ← Konfigurasi submodule
 ```
 
 ## Tema
 
-Tema (header, footer, layout, navigasi) dikelola di repo terpisah:
+Tema (layout, includes, data, assets) dikelola sebagai **Jekyll theme gem** di repo terpisah:
 
 → [deepin-Indonesia/deepin-theme-site](https://github.com/deepin-Indonesia/deepin-theme-site)
 
@@ -37,28 +38,24 @@ cd _theme
 git pull origin master
 cd ..
 git add _theme
-git commit -m "Update theme"
+git commit -m "chore: update submodule theme"
 ```
 
 ## Deployment
 
-| Environment | Branch | URL |
-|---|---|---|
-| Preview (Netlify) | `preview` | deepinid-preview-home-site.netlify.app |
-| Production (GitHub Pages) | `main` | deepin.id |
+| Environment | Branch | Trigger | URL |
+|---|---|---|---|
+| Preview (Netlify) | `preview` | Push `main` → `preview` | Netlify preview URL |
+| Production (GitHub Pages) | `main` | Push ke `main` via GitHub Actions | deepin.id |
 
 ### Workflow
 
-1. Commit → push ke `preview`
-2. Preview di Netlify
-3. Jika OK → merge ke `main`
-
 ```bash
-# Push ke preview
-git checkout preview && git merge main && git push origin preview && git checkout main
+# Push ke preview (dari main)
+git push origin main:preview
 
-# Merge ke production
-git checkout main && git merge preview && git push origin main
+# Jika OK, push ke production
+git push origin main
 ```
 
 ## Subdomain terkait
