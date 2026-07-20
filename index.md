@@ -83,44 +83,42 @@ permalink: /
       </div>
     </div>
     <div class="intro-grid">
-      <div class="intro-content">
-        <div class="intro-text">
-          <p>
-            <strong>deepin</strong> adalah distribusi Linux open source yang berkomitmen menghadirkan pengalaman 
-            elegan, mudah digunakan, aman, dan stabil bagi pengguna di seluruh dunia. 
-            Dikembangkan oleh <strong>Wuhan Deepin Technology Co., Ltd.</strong> dan 
-            <strong>deepin Community</strong> sejak 2008, deepin telah berkembang menjadi 
-            salah satu distribusi Linux paling populer secara global.
-          </p>
-          <p>
-            deepin menawarkan <strong>Deepin Desktop Environment (DDE)</strong> — lingkungan desktop 
-            buatan sendiri berbasis <strong>Qt</strong> dan <strong>DTK (Development ToolKit)</strong>. 
-            Versi terbaru <strong>DDE 7.0</strong> di deepin 25 menghadirkan <strong>Treeland</strong> 
-            (window manager Wayland modern), <strong>UOS AI</strong> (asisten AI di seluruh sistem), 
-            <strong>Immutable System</strong> (perlindungan stabilitas full-stack), dan 
-            <strong>Linyaps</strong> (format paket baru yang mendekopling sistem dan aplikasi).
-          </p>
-          <p>
-            deepin menggunakan <strong>APT</strong> sebagai package manager dan menyediakan 
-            <strong>100.000+ aplikasi</strong> di App Store yang telah terverifikasi, serta 
-            <strong>40+ aplikasi bawaan</strong> siap pakai untuk produktivitas, multimedia, 
-            dan hiburan. Dengan pendekatan <em>design-first</em>, deepin menjadi pilihan ideal 
-            bagi pengguna yang menginginkan Linux yang fungsional, <strong>indah dipandang, 
-            dan nyaman digunakan</strong>.
-          </p>
-        </div>
-        <div class="intro-highlights">
-          <ul>
-            <li><i class="fas fa-check-circle"></i> <strong>DDE 7.0</strong> — Desktop Environment berbasis Qt + Wayland</li>
-            <li><i class="fas fa-check-circle"></i> <strong>UOS AI</strong> — Asisten AI di seluruh sistem</li>
-            <li><i class="fas fa-check-circle"></i> <strong>Immutable System</strong> — Perlindungan stabilitas full-stack</li>
-            <li><i class="fas fa-check-circle"></i> <strong>100.000+</strong> aplikasi di App Store</li>
-            <li><i class="fas fa-check-circle"></i> <strong>40+</strong> aplikasi bawaan siap pakai</li>
-            <li><i class="fas fa-check-circle"></i> <strong>34 bahasa</strong> — 1.100+ translator global</li>
-            <li><i class="fas fa-check-circle"></i> <strong>3 juta+</strong> pengguna di luar Tiongkok</li>
-            <li><i class="fas fa-check-circle"></i> <strong>Gratis</strong> — open source, bebas virus & trojan</li>
-          </ul>
-        </div>
+      <div class="intro-text">
+        <p>
+          <strong>deepin</strong> adalah distribusi Linux open source yang berkomitmen menghadirkan pengalaman 
+          elegan, mudah digunakan, aman, dan stabil bagi pengguna di seluruh dunia. 
+          Dikembangkan oleh <strong>Wuhan Deepin Technology Co., Ltd.</strong> dan 
+          <strong>deepin Community</strong> sejak 2008, deepin telah berkembang menjadi 
+          salah satu distribusi Linux paling populer secara global.
+        </p>
+        <p>
+          deepin menawarkan <strong>Deepin Desktop Environment (DDE)</strong> — lingkungan desktop 
+          buatan sendiri berbasis <strong>Qt</strong> dan <strong>DTK (Development ToolKit)</strong>. 
+          Versi terbaru <strong>DDE 7.0</strong> di deepin 25 menghadirkan <strong>Treeland</strong> 
+          (window manager Wayland modern), <strong>UOS AI</strong> (asisten AI di seluruh sistem), 
+          <strong>Immutable System</strong> (perlindungan stabilitas full-stack), dan 
+          <strong>Linyaps</strong> (format paket baru yang mendekopling sistem dan aplikasi).
+        </p>
+        <p>
+          deepin menggunakan <strong>APT</strong> sebagai package manager dan menyediakan 
+          <strong>100.000+ aplikasi</strong> di App Store yang telah terverifikasi, serta 
+          <strong>40+ aplikasi bawaan</strong> siap pakai untuk produktivitas, multimedia, 
+          dan hiburan. Dengan pendekatan <em>design-first</em>, deepin menjadi pilihan ideal 
+          bagi pengguna yang menginginkan Linux yang fungsional, <strong>indah dipandang, 
+          dan nyaman digunakan</strong>.
+        </p>
+      </div>
+      <div class="intro-highlights">
+        <ul>
+          <li><i class="fas fa-check-circle"></i> <strong>DDE 7.0</strong> — Desktop Environment berbasis Qt + Wayland</li>
+          <li><i class="fas fa-check-circle"></i> <strong>UOS AI</strong> — Asisten AI di seluruh sistem</li>
+          <li><i class="fas fa-check-circle"></i> <strong>Immutable System</strong> — Perlindungan stabilitas full-stack</li>
+          <li><i class="fas fa-check-circle"></i> <strong>100.000+</strong> aplikasi di App Store</li>
+          <li><i class="fas fa-check-circle"></i> <strong>40+</strong> aplikasi bawaan siap pakai</li>
+          <li><i class="fas fa-check-circle"></i> <strong>34 bahasa</strong> — 1.100+ translator global</li>
+          <li><i class="fas fa-check-circle"></i> <strong>3 juta+</strong> pengguna di luar Tiongkok</li>
+          <li><i class="fas fa-check-circle"></i> <strong>Gratis</strong> — open source, bebas virus & trojan</li>
+        </ul>
       </div>
     </div>
   </div>
