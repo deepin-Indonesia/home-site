@@ -65,29 +65,6 @@ permalink: /
   </div>
 </section>
 
-<!-- Quick Install — Copy-paste command -->
-<section class="quick-install">
-  <div class="container">
-    <div class="install-card">
-      <div class="install-header">
-        <i class="fab fa-linux"></i> Mulai dengan deepin
-      </div>
-      <div class="install-body">
-        <p class="install-desc">Copy-paste & jalankan di terminal Linux kamu:</p>
-        <div class="install-command">
-          <code>sudo apt install deepin-desktop-environment</code>
-        </div>
-        <div class="install-alt">
-          <strong>Alternatif:</strong>
-          <span><i class="fab fa-linux"></i> <a href="https://os.deepin.id">Download ISO</a> — install manual</span>
-          <span><i class="fab fa-windows"></i> <a href="https://os.deepin.id">Download ISO</a> — dual-boot dengan Windows</span>
-          <span><i class="fab fa-apple"></i> <a href="https://os.deepin.id">Download ISO</a> — jalankan di VM Mac</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
 <!-- Apa itu deepin? Section — SEO Rich Content -->
 <section class="intro-deepin">
   <div class="container">
