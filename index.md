@@ -350,7 +350,7 @@ permalink: /
           <i class="fas fa-download"></i> Download Sekarang
         </a>
         <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener" class="btn btn-telegram">
-          <i class="fab fa-telegram-plane"></i> Gabung Telegram
+          <i class="fas fa-users"></i> Gabung Komunitas
         </a>
       </div>
     </div>
