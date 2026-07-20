@@ -520,9 +520,15 @@ a {
 
 .intro-grid {
   display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
+  grid-template-columns: 1fr 1fr;
   gap: 3rem;
-  align-items: start;
+  align-items: center;
+}
+
+.intro-content {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
 }
 
 .intro-text {
@@ -566,6 +572,16 @@ a {
         color: var(--color-gray-800);
       }
     }
+  }
+}
+
+.intro-screenshot {
+  img {
+    width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: 0 8px 40px rgba(0,0,0,.12);
+    border: 1px solid var(--color-gray-200);
   }
 }
 
@@ -1389,6 +1405,10 @@ a {
   .intro-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
+  }
+
+  .intro-screenshot {
+    order: -1; /* Show screenshot first on mobile */
   }
 
   /* Timeline */
