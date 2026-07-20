@@ -57,7 +57,7 @@ permalink: /
           Update ini membawa penyempurnaan pada <strong>Deepin Desktop Environment (DDE)</strong>, 
           dukungan hardware yang lebih luas, serta peningkatan keamanan sistem.
         </p>
-        <a href="https://news.deepin.id/release/2026/07/08/deepin-25-2-release.html" class="btn btn-primary">
+        <a href="https://news.deepin.id/release/2026/07/08/deepin-25-2-release.html" class="btn btn-primary" target="_blank" rel="noopener">
           <i class="fas fa-arrow-right"></i> Baca Selengkapnya
         </a>
       </div>
