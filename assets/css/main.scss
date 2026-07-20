@@ -576,8 +576,11 @@ a {
 }
 
 .intro-screenshot {
+  margin-top: 2rem;
+
   img {
     width: 100%;
+    max-width: 900px;
     height: auto;
     border-radius: var(--radius-lg);
     box-shadow: 0 8px 40px rgba(0,0,0,.12);
@@ -1405,10 +1408,6 @@ a {
   .intro-grid {
     grid-template-columns: 1fr;
     gap: 2rem;
-  }
-
-  .intro-screenshot {
-    order: -1; /* Show screenshot first on mobile */
   }
 
   /* Timeline */

@@ -77,6 +77,10 @@ permalink: /
       <a href="https://distrowatch.com/table.php?distribution=deepin" target="_blank" rel="noopener" class="distrowatch-badge">
         <i class="fas fa-chart-bar"></i> deepin di <strong>DistroWatch</strong> <i class="fas fa-external-link-alt"></i>
       </a>
+
+      <div class="intro-screenshot">
+        <img src="{{ '/assets/images/screenshots/deepin25/desktop.png' | relative_url }}" alt="deepin 25 Desktop — Deepin Desktop Environment (DDE) dengan tampilan modern dan elegan" loading="lazy" width="800" height="500">
+      </div>
     </div>
     <div class="intro-grid">
       <div class="intro-content">
@@ -117,9 +121,6 @@ permalink: /
             <li><i class="fas fa-check-circle"></i> <strong>Gratis</strong> — open source, bebas virus & trojan</li>
           </ul>
         </div>
-      </div>
-      <div class="intro-screenshot">
-        <img src="{{ '/assets/images/screenshots/deepin25/desktop.png' | relative_url }}" alt="deepin 25 Desktop — Deepin Desktop Environment (DDE) dengan tampilan modern dan elegan" loading="lazy" width="800" height="500">
       </div>
     </div>
   </div>
