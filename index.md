@@ -47,7 +47,7 @@ permalink: /
   <div class="container">
     <div class="headline-card">
       <div class="headline-badge">
-        <i class="fas fa-newspaper"></i> Rilis Terbaru
+        <i class="fas fa-bullhorn"></i> Rilis Terbaru
       </div>
       <div class="headline-body">
         <h2>deepin 25.2.0 Kini Tersedia!</h2>
