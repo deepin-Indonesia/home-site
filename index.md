@@ -18,7 +18,7 @@ permalink: /
         yang indah, cepat, dan aman.
       </p>
       <div class="hero-actions">
-        <a href="/download/" class="btn btn-primary">
+        <a href="https://os.deepin.id" class="btn btn-primary">
           <i class="fas fa-download"></i> Download deepin
         </a>
         <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener" class="btn btn-outline">
@@ -346,7 +346,7 @@ permalink: /
       <h2>Siap mencoba deepin?</h2>
       <p>Bergabunglah dengan ratusan pengguna deepin lainnya di Indonesia. Mulai perjalanan Linux Anda hari ini!</p>
       <div class="cta-actions">
-        <a href="/download/" class="btn btn-primary">
+        <a href="https://os.deepin.id" class="btn btn-primary">
           <i class="fas fa-download"></i> Download Sekarang
         </a>
         <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener" class="btn btn-telegram">
