@@ -512,6 +512,86 @@ a {
   }
 }
 
+/* ===== Quick Install Section ===== */
+.quick-install {
+  padding: 2rem 0;
+  background: var(--color-gray-50);
+}
+
+.install-card {
+  background: var(--color-white);
+  border: 1px solid var(--color-gray-200);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,.04);
+}
+
+.install-header {
+  background: var(--deepin-blue);
+  color: var(--color-white);
+  padding: .75rem 1.5rem;
+  font-weight: 700;
+  font-size: .95rem;
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+  i { font-size: 1.1rem; }
+}
+
+.install-body {
+  padding: 1.5rem;
+}
+
+.install-desc {
+  font-size: .85rem;
+  color: var(--color-gray-500);
+  margin-bottom: .75rem;
+}
+
+.install-command {
+  background: var(--color-gray-900);
+  color: #10b981;
+  padding: .9rem 1.25rem;
+  border-radius: var(--radius-md);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: .9rem;
+  margin-bottom: 1rem;
+  overflow-x: auto;
+
+  code {
+    color: inherit;
+    background: none;
+  }
+}
+
+.install-alt {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem 1.5rem;
+  font-size: .8rem;
+  color: var(--color-gray-500);
+
+  strong {
+    display: block;
+    margin-bottom: .35rem;
+    color: var(--color-gray-700);
+    font-size: .82rem;
+  }
+
+  span {
+    display: flex;
+    align-items: center;
+    gap: .35rem;
+
+    i { color: var(--color-gray-400); font-size: .85rem; }
+
+    a { color: var(--deepin-blue); text-decoration: none;
+      &:hover { text-decoration: underline; }
+    }
+  }
+}
+
 /* ===== Intro deepin Section — SEO Rich Content ===== */
 .intro-deepin {
   padding: var(--section-padding);
