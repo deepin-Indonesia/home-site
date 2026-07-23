@@ -1402,23 +1402,28 @@ a {
       color: #ef4444;
     }
   }
+}
 
-  .footer-analytics {
-    margin-top: .5rem;
-    font-size: .76rem;
-    color: var(--color-gray-500);
-    max-width: 640px;
-    margin-left: auto;
-    margin-right: auto;
+.footer-analytics {
+  border-top: 1px solid rgba(255,255,255,.06);
+  background: rgba(0,0,0,.15);
+  text-align: center;
+  padding: .65rem 1.5rem;
+
+  p {
+    font-size: .72rem;
+    color: rgba(255,255,255,.3);
     line-height: 1.6;
+    margin: 0;
 
-    i { color: var(--color-gray-400); margin-right: .3rem; }
+    strong { color: rgba(255,255,255,.4); }
 
     a {
-      color: var(--color-gray-400);
+      color: rgba(255,255,255,.35);
       text-decoration: underline;
+      margin-left: .15rem;
 
-      &:hover { color: var(--color-gray-300); }
+      &:hover { color: rgba(255,255,255,.6); }
     }
   }
 }
