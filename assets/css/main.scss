@@ -1406,9 +1406,9 @@ a {
 
 .footer-analytics {
   border-top: 1px solid rgba(255,255,255,.06);
-  background: rgba(0,0,0,.15);
+  margin-top: 1.5rem;
+  padding-top: 1rem;
   text-align: center;
-  padding: .65rem 1.5rem;
 
   p {
     font-size: .72rem;
@@ -1421,7 +1421,6 @@ a {
     a {
       color: rgba(255,255,255,.35);
       text-decoration: underline;
-      margin-left: .15rem;
 
       &:hover { color: rgba(255,255,255,.6); }
     }
