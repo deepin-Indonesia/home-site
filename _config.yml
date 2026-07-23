@@ -26,7 +26,7 @@ twitter:
   card: summary_large_image
 
 # Google Analytics (Measurement ID, e.g. G-XXXXXXXXXX)
-google_analytics: # isi dengan GA4 Measurement ID
+google_analytics: G-2J4TLB9W7H
 
 # Build settings
 markdown: kramdown
