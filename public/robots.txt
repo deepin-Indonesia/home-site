@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+Disallow: /vendor/
+Disallow: /node_modules/
+Disallow: /*.scss$
+Disallow: /*.js.map$
+Disallow: /*.json$
+Sitemap: https://deepin.id/sitemap-index.xml

@@ -1,0 +1,200 @@
+---
+import Layout from '@/components/Layout.astro';
+import WhyDeepin from '@/components/WhyDeepin.astro';
+import Timeline from '@/components/Timeline.astro';
+import Stats from '@/components/Stats.astro';
+---
+
+<Layout>
+  <!-- Hero -->
+  <section class="relative overflow-hidden bg-gradient-to-br from-gray-900 via-slate-800 to-deepin-900 min-h-[92vh] flex items-center">
+    <div class="absolute inset-0 overflow-hidden pointer-events-none">
+      <div class="absolute -top-40 -right-40 w-[600px] h-[600px] bg-deepin-600/20 rounded-full blur-[120px]" />
+      <div class="absolute -bottom-20 left-1/4 w-[400px] h-[400px] bg-deepin-400/10 rounded-full blur-[100px]" />
+      <div class="absolute inset-0 bg-[radial-gradient(circle_at_50%_50%,rgba(26,109,212,0.05)_0%,transparent_70%)]" />
+    </div>
+
+    <div class="container-main relative py-20 lg:py-0">
+      <div class="grid lg:grid-cols-2 gap-12 items-center min-h-[80vh]">
+        <!-- Text -->
+        <div class="text-center lg:text-left animate-fade-up">
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-deepin-200 text-xs font-semibold tracking-wide uppercase mb-6 backdrop-blur-sm">
+            <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
+            deepin 25 Tersedia
+          </span>
+          <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
+            Sistem Operasi<br />
+            <span class="text-deepin-400">Modern & Cantik</span>
+          </h1>
+          <p class="mt-5 text-lg text-gray-400 max-w-lg mx-auto lg:mx-0 leading-relaxed">
+            deepin Indonesia — komunitas resmi pengguna deepin Linux di Indonesia.
+            Bergabunglah dengan ribuan pengguna yang telah beralih ke deepin.
+          </p>
+          <div class="flex flex-col sm:flex-row items-center gap-3 mt-8 justify-center lg:justify-start">
+            <a href="https://os.deepin.id" class="btn-primary text-base px-8 py-4 !rounded-xl w-full sm:w-auto justify-center">
+              <i class="fas fa-download" /> Download deepin
+            </a>
+            <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener" class="btn-outline text-base px-8 py-4 !rounded-xl w-full sm:w-auto justify-center">
+              <i class="fab fa-telegram-plane" /> Gabung Komunitas
+            </a>
+          </div>
+        </div>
+
+        <!-- Hero graphic -->
+        <div class="flex justify-center lg:justify-end animate-float">
+          <div class="relative">
+            <div class="absolute inset-0 bg-deepin-500/30 rounded-full blur-3xl scale-75" />
+            <img
+              src="/images/deepin-id.png"
+              alt="deepin Logo"
+              width="340"
+              height="340"
+              class="relative w-64 sm:w-80 lg:w-[340px] drop-shadow-2xl"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Scroll indicator -->
+    <div class="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
+      <i class="fas fa-chevron-down text-white/30 text-xl" />
+    </div>
+  </section>
+
+  <!-- Headline Banner -->
+  <section class="py-6 bg-deepin-50 border-b border-deepin-100">
+    <div class="container-main flex flex-col sm:flex-row items-center justify-center gap-2 text-center">
+      <span class="inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-deepin-600 text-white text-xs font-semibold">
+        <i class="fas fa-star text-[10px]" /> BARU
+      </span>
+      <p class="text-sm text-deepin-800 font-medium">
+        deepin 25.2.0 kini tersedia! Peningkatan signifikan di Treeland, UOS AI, dan performa.
+      </p>
+      <a href="https://news.deepin.id/2026/07/08/deepin-25-2-release/" class="text-sm text-deepin-600 font-semibold hover:underline whitespace-nowrap">
+        Baca selengkapnya <i class="fas fa-arrow-right text-[10px] ml-0.5" />
+      </a>
+    </div>
+  </section>
+
+  <!-- Apa itu deepin? -->
+  <section class="py-20 bg-white">
+    <div class="container-main">
+      <div class="grid lg:grid-cols-2 gap-12 items-center">
+        <div>
+          <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-deepin-50 text-deepin-700 text-xs font-semibold tracking-wide uppercase mb-4">
+            <i class="fas fa-circle-info text-[10px]"></i> Tentang
+          </span>
+          <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900 mb-5">
+            Apa itu <span class="text-deepin-600">deepin</span>?
+          </h2>
+          <p class="text-gray-500 leading-relaxed mb-4">
+            deepin adalah distribusi Linux modern yang mengedepankan keindahan antarmuka, 
+            kemudahan penggunaan, dan keamanan. Dikembangkan oleh deepin Technology, 
+            deepin hadir dengan <strong class="text-gray-700">Deepin Desktop Environment (DDE)</strong> — 
+            lingkungan desktop yang dirancang dari nol untuk pengalaman pengguna terbaik.
+          </p>
+          <p class="text-gray-500 leading-relaxed mb-6">
+            Versi terbaru <strong class="text-deepin-600">deepin 25</strong> memperkenalkan 
+            <strong class="text-gray-700">Treeland</strong> (Wayland compositor mandiri), 
+            <strong class="text-gray-700">UOS AI</strong> (asisten AI terintegrasi), 
+            sistem <strong class="text-gray-700">Immutable</strong> yang aman, 
+            dan <strong class="text-gray-700">Linyaps</strong> — format paket modern. 
+            Dengan dukungan <strong class="text-gray-700">APT</strong> dan <strong class="text-gray-700">100.000+</strong> aplikasi, 
+            deepin siap untuk produktivitas harian Anda.
+          </p>
+          <ul class="grid grid-cols-2 gap-3 text-sm">
+            {[
+              'DDE 7.0 — Desktop modern & intuitif',
+              'UOS AI — Asisten AI terintegrasi',
+              'Immutable System — Keamanan maksimal',
+              '100.000+ aplikasi via repositori',
+              '40+ aplikasi bawaan',
+              '34 bahasa, termasuk Indonesia',
+              '3M+ pengguna di seluruh dunia',
+              '100% Gratis & Open Source',
+            ].map((item) => (
+              <li class="flex items-start gap-2 text-gray-600">
+                <i class="fas fa-check-circle text-deepin-500 mt-0.5 shrink-0" />
+                {item}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="relative">
+          <div class="absolute -inset-1 bg-gradient-to-br from-deepin-400 to-deepin-600 rounded-2xl opacity-20 blur-xl" />
+          <img
+            src="/images/screenshots/deepin25/desktop.png"
+            alt="deepin 25 Desktop"
+            width="800"
+            height="500"
+            class="relative rounded-xl shadow-2xl border border-gray-200"
+            loading="lazy"
+          />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Stats -->
+  <Stats />
+
+  <!-- Why Deepin -->
+  <WhyDeepin />
+
+  <!-- Philosophy -->
+  <section class="py-20 bg-gray-50">
+    <div class="container-main">
+      <div class="text-center mb-14">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-deepin-50 text-deepin-700 text-xs font-semibold tracking-wide uppercase mb-4">
+          <i class="fas fa-palette text-[10px]"></i> Filosofi
+        </span>
+        <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+          Filosofi <span class="text-deepin-600">Desain</span>
+        </h2>
+      </div>
+
+      <div class="grid sm:grid-cols-2 lg:grid-cols-5 gap-4">
+        {[
+          { icon: 'fa-wand-magic-sparkles', title: 'Flow Design', desc: 'Setiap transisi animasi dirancang untuk menciptakan alur yang natural dan tanpa hambatan.' },
+          { icon: 'fa-cubes', title: 'Fungsi Dulu, Estetika Kemudian', desc: 'Fungsionalitas adalah prioritas utama. Keindahan adalah hasil dari desain yang matang.' },
+          { icon: 'fa-feather', title: 'Sederhana & Ringan', desc: 'Antarmuka yang bersih dan minim distraksi. Fokus pada apa yang penting — pekerjaan Anda.' },
+          { icon: 'fa-sliders', title: 'Fleksibel', desc: 'Personalisasi sesuai kebutuhan Anda. Dari tema hingga tata letak, kendali penuh di tangan Anda.' },
+          { icon: 'fa-heart', title: 'Desain Emosional', desc: 'Lebih dari sekadar alat — deepin dirancang untuk menyenangkan setiap kali Anda menggunakannya.' },
+        ].map((p) => (
+          <div class="card p-5 text-center group hover:-translate-y-1 transition-all duration-300">
+            <div class="w-12 h-12 rounded-full bg-deepin-50 flex items-center justify-center mx-auto mb-3 group-hover:bg-deepin-100 transition-colors">
+              <i class={`fas ${p.icon} text-lg text-deepin-600`} />
+            </div>
+            <h3 class="font-bold text-gray-900 text-sm mb-1.5">{p.title}</h3>
+            <p class="text-xs text-gray-500 leading-relaxed">{p.desc}</p>
+          </div>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline -->
+  <Timeline />
+
+  <!-- CTA -->
+  <section class="py-20 bg-gradient-to-br from-deepin-700 to-deepin-900 relative overflow-hidden">
+    <div class="absolute inset-0 bg-[radial-gradient(circle_at_30%_50%,rgba(96,165,250,0.15)_0%,transparent_50%)]" />
+    <div class="container-main relative text-center">
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-white mb-4">
+        Siap Mencoba <span class="text-deepin-300">deepin</span>?
+      </h2>
+      <p class="text-deepin-200 text-lg mb-8 max-w-xl mx-auto">
+        Bergabunglah dengan jutaan pengguna deepin di seluruh dunia. Gratis, open source, dan selalu berkembang.
+      </p>
+      <div class="flex flex-col sm:flex-row items-center justify-center gap-3">
+        <a href="https://os.deepin.id" class="btn-primary text-base px-8 py-4 !rounded-xl !bg-white !text-deepin-700 hover:!bg-gray-100 w-full sm:w-auto justify-center">
+          <i class="fas fa-download" /> Download Sekarang
+        </a>
+        <a href="https://t.me/Linux_deepin_ID" target="_blank" rel="noopener" class="btn-outline text-base px-8 py-4 !rounded-xl w-full sm:w-auto justify-center">
+          <i class="fab fa-telegram-plane" /> Gabung Komunitas
+        </a>
+      </div>
+    </div>
+  </section>
+</Layout>
