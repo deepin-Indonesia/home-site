@@ -1,14 +1,8 @@
 # Build output
 dist/
-_site/
-.sass-cache/
-.jekyll-cache/
-.jekyll-metadata
 
 # Dependencies
 node_modules/
-vendor/
-Gemfile.lock
 
 # Astro
 .astro/
@@ -21,8 +15,3 @@ Gemfile.lock
 # OS
 .DS_Store
 Thumbs.db
-
-# Misc
-*-orig.png
-*-orig.jpg
-*.pdf
