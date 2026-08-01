@@ -4,7 +4,7 @@ import { MAIN_NAV, ABOUT_NAV } from '@/data/site';
 const currentPath = Astro.url.pathname;
 ---
 
-<header class="sticky top-0 z-50 glass border-b border-gray-200 shadow-sm" id="header">
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur-xl border-b-2 border-gray-200 shadow-[0_1px_3px_rgba(0,0,0,0.08)]" id="header">
   <nav class="container-main flex items-center justify-between h-[72px]" aria-label="Main">
     <!-- Logo -->
     <a href="https://deepin.id" class="flex items-center shrink-0" aria-label="deepin Indonesia home">
@@ -160,6 +160,10 @@ const currentPath = Astro.url.pathname;
   // Header shadow on scroll
   const header = document.getElementById('header')!;
   window.addEventListener('scroll', () => {
-    header.classList.toggle('shadow-sm', window.scrollY > 10);
+    if (window.scrollY > 10) {
+      header.classList.add('shadow-md');
+    } else {
+      header.classList.remove('shadow-md');
+    }
   });
 </script>
