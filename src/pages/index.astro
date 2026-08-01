@@ -40,17 +40,20 @@ import Stats from '@/components/Stats.astro';
           </div>
         </div>
 
-        <!-- Hero graphic -->
-        <div class="flex justify-center lg:justify-end animate-float">
-          <div class="relative">
-            <div class="absolute inset-0 bg-deepin-500/30 rounded-full blur-3xl scale-75" />
-            <img
-              src="/images/deepin-id.png"
-              alt="deepin Logo"
-              width="340"
-              height="340"
-              class="relative w-64 sm:w-80 lg:w-[340px] drop-shadow-2xl"
-            />
+        <!-- Hero graphic (YouTube) -->
+        <div class="flex justify-center lg:justify-end">
+          <div class="relative w-full max-w-[500px]">
+            <div class="absolute -inset-1 bg-gradient-to-br from-deepin-400 to-deepin-600 rounded-2xl opacity-20 blur-xl" />
+            <div class="relative aspect-video rounded-xl overflow-hidden shadow-2xl border border-white/10">
+              <iframe
+                src="https://www.youtube.com/embed/w0fyT59D6nw?rel=0&modestbranding=1"
+                title="deepin 25 Preview"
+                class="absolute inset-0 w-full h-full"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+                loading="lazy"
+              ></iframe>
+            </div>
           </div>
         </div>
       </div>
@@ -120,6 +123,10 @@ import Stats from '@/components/Stats.astro';
               </li>
             ))}
           </ul>
+          <a href="https://distrowatch.com/table.php?distribution=deepin" target="_blank" rel="noopener"
+             class="inline-flex items-center gap-2 mt-6 px-4 py-2.5 rounded-xl bg-gray-100 hover:bg-gray-200 text-sm font-medium text-gray-700 transition-colors">
+            <i class="fas fa-chart-bar text-deepin-600" /> Lihat deepin di <strong>DistroWatch</strong> <i class="fas fa-external-link-alt text-[10px] opacity-50" />
+          </a>
         </div>
         <div class="relative">
           <div class="absolute -inset-1 bg-gradient-to-br from-deepin-400 to-deepin-600 rounded-2xl opacity-20 blur-xl" />
