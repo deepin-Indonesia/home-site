@@ -41,11 +41,6 @@ const currentPath = Astro.url.pathname;
         )
       ))}
 
-      <!-- Donasi CTA -->
-      <a href="https://donasi.deepin.id" class="btn-primary text-sm py-2 px-4 ml-3 !rounded-lg">
-        <i class="fas fa-heart text-xs" /> Donasi
-      </a>
-
       <!-- Tentang deepin Dropdown -->
       <div class="relative group">
         <button class="btn-ghost text-sm font-medium py-2">
@@ -56,11 +51,15 @@ const currentPath = Astro.url.pathname;
           {ABOUT_NAV[0].children?.map((child) => (
             <a href={child.url} class={`block px-4 py-2 text-sm hover:bg-gray-50 hover:text-deepin-600 transition-colors ${child.highlight ? 'text-deepin-600 font-semibold' : 'text-gray-700'}`}>
               {child.title}
-              {child.highlight && <i class="fas fa-star text-[10px] text-amber-500 ml-1.5" />}
             </a>
           ))}
         </div>
       </div>
+
+      <!-- Donasi CTA (paling kanan) -->
+      <a href="https://donasi.deepin.id" class="btn-primary text-sm py-2 px-4 ml-3 !rounded-lg">
+        <i class="fas fa-heart text-xs" /> Donasi
+      </a>
     </div>
 
     <!-- Mobile Menu Button -->
