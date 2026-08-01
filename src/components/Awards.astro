@@ -1,0 +1,49 @@
+---
+const awards = [
+  { year: '2012', title: 'Northeast Asia OSS Competition', desc: 'Winner — Kompetisi open source tingkat Asia Timur (China, Jepang, Korea Selatan).' },
+  { year: '2015', title: 'Best Product — China Info Security', desc: 'OS terbaik dalam keamanan informasi yang mandiri dan terkendali di Tiongkok.' },
+  { year: '2016', title: 'National S&T Innovation Award', desc: 'Kementerian Sains & Teknologi "12th Five-Year Plan" — pencapaian inovasi teknologi.' },
+  { year: '2017', title: 'Top 20 Most Popular Chinese OSS', desc: 'Masuk 20 besar software open source paling populer di Tiongkok.' },
+  { year: '2018', title: 'Software China Expo — Excellent Product', desc: 'Penghargaan internasional di ajang Software China Expo.' },
+  { year: '2019', title: 'Most Popular Chinese OSS of the Year', desc: 'Software open source Tiongkok paling populer tahun itu.' },
+  { year: '2021', title: 'Top 10 Global Open Source Products', desc: 'Masuk 10 besar produk open source tingkat global.' },
+  { year: '2023', title: 'SCO International Cooperation — Outstanding Case', desc: 'Kerjasama internasional industri software tingkat SCO.' },
+  { year: '2023', title: 'Outstanding Open Source Tech Team', desc: 'Tim teknologi open source terbaik — Open Source China.' },
+  { year: '2023', title: 'Innovative Product Gold Award', desc: 'Penghargaan emas untuk produk inovatif.' },
+];
+---
+
+<section class="py-20 bg-gray-50">
+  <div class="container-main">
+    <div class="text-center mb-14">
+      <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-amber-50 text-amber-700 text-xs font-semibold tracking-wide uppercase mb-4">
+        <i class="fas fa-trophy text-[10px]"></i> Penghargaan
+      </span>
+      <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
+        Pengakuan <span class="text-deepin-600">Global</span>
+      </h2>
+      <p class="mt-3 text-gray-500 max-w-2xl mx-auto">
+        Sejak 2008, deepin telah menerima <strong>60+ penghargaan</strong> domestik & internasional —
+        termasuk 41 penghargaan internasional, nasional & industri, serta 20+ penghargaan provinsi & kementerian.
+      </p>
+      <p class="mt-1 text-xs text-gray-400 italic">Data per Oktober 2024</p>
+    </div>
+
+    <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-4 max-w-5xl mx-auto">
+      {awards.map((a) => (
+        <div class="card p-5 group hover:-translate-y-1 transition-all duration-300">
+          <span class="text-xs font-bold text-amber-600 tracking-wide">{a.year}</span>
+          <h3 class="font-bold text-gray-900 text-sm mt-1 mb-1">{a.title}</h3>
+          <p class="text-xs text-gray-500 leading-relaxed">{a.desc}</p>
+        </div>
+      ))}
+    </div>
+
+    <div class="text-center mt-10">
+      <p class="text-sm text-gray-500">
+        deepin terus berkomitmen pada prinsip <strong class="text-deepin-600">Community</strong>, <strong class="text-deepin-600">Innovation</strong>, dan <strong class="text-deepin-600">Co-construction</strong> —
+        menghadirkan sistem operasi yang stabil, ramah pengguna, dan indah bagi semua.
+      </p>
+    </div>
+  </div>
+</section>
