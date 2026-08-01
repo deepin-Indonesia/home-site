@@ -1,9 +1,11 @@
 ---
+import { Image } from 'astro:assets';
 import Layout from '@/components/Layout.astro';
 import Awards from '@/components/Awards.astro';
 import WhyDeepin from '@/components/WhyDeepin.astro';
 import Timeline from '@/components/Timeline.astro';
 import Stats from '@/components/Stats.astro';
+import desktopImg from '../assets/images/desktop.png';
 ---
 
 <Layout>
@@ -21,7 +23,7 @@ import Stats from '@/components/Stats.astro';
         <div class="text-center lg:text-left animate-fade-up">
           <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/10 text-deepin-200 text-xs font-semibold tracking-wide uppercase mb-6 backdrop-blur-sm">
             <span class="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            deepin 25 Tersedia
+            deepin 25.2.0
           </span>
           <h1 class="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
             <span class="text-deepin-400">deepin</span><br />
@@ -52,7 +54,6 @@ import Stats from '@/components/Stats.astro';
                 class="absolute inset-0 w-full h-full"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
-                loading="lazy"
               ></iframe>
             </div>
           </div>
@@ -109,13 +110,13 @@ import Stats from '@/components/Stats.astro';
           </p>
           <ul class="grid grid-cols-2 gap-3 text-sm">
             {[
-              'DDE 7.0 — Desktop modern & intuitif',
-              'UOS AI — Asisten AI terintegrasi',
-              'Immutable System — Keamanan maksimal',
-              '100.000+ aplikasi via repositori',
-              '40+ aplikasi bawaan',
-              '34 bahasa, termasuk Indonesia',
-              '3M+ pengguna di seluruh dunia',
+              'DDE 7.0 — Antarmuka QML modern & intuitif',
+              'UOS AI — Agen AI bawaan deepin, kendali suara & teks',
+              'Solid — Immutable system anti-brick',
+              'Linyaps — Format paket universal lintas 7+ distro',
+              'Treeland — Wayland compositor 40% lebih mulus',
+              '51 bahasa, termasuk Indonesia',
+              '7,6Jt+ pengguna komunitas global',
               '100% Gratis & Open Source',
             ].map((item) => (
               <li class="flex items-start gap-2 text-gray-600">
@@ -131,30 +132,25 @@ import Stats from '@/components/Stats.astro';
         </div>
         <div class="relative">
           <div class="absolute -inset-1 bg-gradient-to-br from-deepin-400 to-deepin-600 rounded-2xl opacity-20 blur-xl" />
-          <img
-            src="/images/screenshots/deepin25/desktop.png"
+          <Image
+            src={desktopImg}
             alt="deepin 25 Desktop"
-            width="800"
-            height="500"
-            class="relative rounded-xl shadow-2xl border border-gray-200"
+            width={800}
+            height={500}
             loading="lazy"
+            decoding="async"
+            class="relative rounded-xl shadow-2xl border border-gray-200"
           />
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Stats -->
-  <Stats />
-
-  <!-- Why Deepin -->
-  <WhyDeepin />
-
-  <!-- Philosophy -->
-  <section class="py-20 bg-white">
+  <!-- Filosofi Desain -->
+  <section class="py-20 bg-gray-50">
     <div class="container-main">
       <div class="text-center mb-14">
-        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-deepin-50 text-deepin-700 text-xs font-semibold tracking-wide uppercase mb-4">
+        <span class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white text-deepin-700 text-xs font-semibold tracking-wide uppercase mb-4">
           <i class="fas fa-palette text-[10px]"></i> Filosofi
         </span>
         <h2 class="text-3xl sm:text-4xl font-extrabold text-gray-900">
@@ -182,11 +178,17 @@ import Stats from '@/components/Stats.astro';
     </div>
   </section>
 
-  <!-- Awards -->
-  <Awards />
+  <!-- Why Deepin -->
+  <WhyDeepin />
+
+  <!-- Stats -->
+  <Stats />
 
   <!-- Timeline -->
   <Timeline />
+
+  <!-- Awards -->
+  <Awards />
 
   <!-- CTA -->
   <section class="py-20 bg-gradient-to-br from-deepin-700 to-deepin-900 relative overflow-hidden">
