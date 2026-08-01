@@ -24,13 +24,17 @@ const cards = [
     icon: 'fa-code',
     title: 'Open Source',
     desc: 'Dibangun di atas fondasi Linux dan terbuka untuk kontribusi. Kode sumber tersedia untuk dipelajari dan dikembangkan.',
+    links: [
+      { text: 'GitHub deepin', url: 'https://github.com/linuxdeepin', icon: 'fab fa-github' },
+      { text: 'GitHub deepin ID', url: 'https://github.com/deepin-Indonesia', icon: 'fab fa-github' },
+    ],
   },
   {
     icon: 'fa-users',
     title: 'Komunitas Kuat',
     desc: 'Didukung oleh kontributor global dan komunitas Indonesia yang solid. Bergabunglah dan jadilah bagian dari perubahan.',
     link: 'https://t.me/Linux_deepin_ID',
-    linkText: 'Gabung Telegram',
+    linkText: 'Gabung Komunitas deepin Indonesia',
   },
 ];
 ---
@@ -57,6 +61,15 @@ const cards = [
           </div>
           <h3 class="font-bold text-gray-900 mb-2">{card.title}</h3>
           <p class="text-sm text-gray-500 leading-relaxed">{card.desc}</p>
+          {card.links && (
+            <div class="flex flex-wrap gap-2 mt-3">
+              {card.links.map((l) => (
+                <a href={l.url} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-gray-100 text-xs font-medium text-gray-700 hover:bg-gray-200 hover:text-deepin-600 transition-colors">
+                  <i class={l.icon} /> {l.text}
+                </a>
+              ))}
+            </div>
+          )}
           {card.link && (
             <a href={card.link} target="_blank" rel="noopener" class="inline-flex items-center gap-1.5 mt-3 text-sm font-medium text-deepin-600 hover:text-deepin-700 transition-colors">
               {card.linkText} <i class="fas fa-arrow-right text-xs" />
