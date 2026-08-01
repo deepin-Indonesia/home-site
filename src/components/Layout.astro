@@ -85,5 +85,37 @@ const pageTitle = title ? `${title} — ${SITE.name}` : `${SITE.name} — ${SITE
       <slot />
     </main>
     <Footer />
+
+    <!-- Scroll to Top Button -->
+    <button
+      id="scroll-top"
+      class="fixed bottom-6 right-6 z-50 w-11 h-11 rounded-full bg-white border border-gray-200 shadow-lg flex items-center justify-center opacity-0 invisible transition-all duration-300 hover:bg-gray-50 hover:-translate-y-1"
+      aria-label="Scroll to top"
+    >
+      <svg class="absolute inset-0 w-full h-full -rotate-90" viewBox="0 0 36 36">
+        <circle cx="18" cy="18" r="15.5" fill="none" stroke="#e2e8f0" stroke-width="2.5" />
+        <circle id="scroll-progress" cx="18" cy="18" r="15.5" fill="none" stroke="#1a6dd4" stroke-width="2.5" stroke-linecap="round" stroke-dasharray="97.4" stroke-dashoffset="97.4" />
+      </svg>
+      <i class="fas fa-chevron-up text-deepin-600 text-sm relative z-10" />
+    </button>
+
+    <script>
+      const btn = document.getElementById('scroll-top')!;
+      const circle = document.getElementById('scroll-progress')!;
+      const circumference = 97.4;
+
+      function update() {
+        const scrollPercent = window.scrollY / (document.documentElement.scrollHeight - window.innerHeight);
+        if (window.scrollY > 400) {
+          btn.classList.remove('opacity-0', 'invisible');
+        } else {
+          btn.classList.add('opacity-0', 'invisible');
+        }
+        circle.style.strokeDashoffset = String(circumference - scrollPercent * circumference);
+      }
+
+      window.addEventListener('scroll', update, { passive: true });
+      btn.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+    </script>
   </body>
 </html>
