@@ -8,7 +8,7 @@ Landing page single-page dengan 8 section: Hero, Headline, Tentang deepin, Filos
 
 ## Tech Stack
 
-| | |
+| Technology | Detail |
 |---|---|
 | **Framework** | [Astro 7](https://astro.build) |
 | **Styling** | [Tailwind CSS v4](https://tailwindcss.com) + `@tailwindcss/typography` |
@@ -76,7 +76,7 @@ Semua orang bisa berkontribusi — tidak perlu jadi anggota organisasi.
 2. Clone fork kamu: `git clone https://github.com/USERNAME/home-site.git`
 3. `git checkout preview && git checkout -b feat/deskripsi`
 4. Edit, commit, push ke fork kamu
-5. Buka **Pull Request** ke `deepin-Indonesia/home-site` → target: `preview`
+5. Buka **Pull Request (PR)** ke `deepin-Indonesia/home-site` → target: `preview`
 
 ### Untuk anggota organisasi (push langsung)
 
@@ -85,7 +85,7 @@ Semua orang bisa berkontribusi — tidak perlu jadi anggota organisasi.
 3. Buat PR ke `preview`
 4. Setelah review, merge `preview` → `main`
 
-> ⚠️ Jangan push langsung ke `main` — harus lewat PR.
+> ⚠️ Jangan push langsung ke `main` — harus lewat PR (Pull Request).
 
 ## Updating Content
 
@@ -104,30 +104,6 @@ Edit `src/components/Awards.astro` — ubah array `awards`.
 ### Update navigasi
 
 Edit `src/data/site.ts` — ubah `MAIN_NAV` atau `ABOUT_NAV`.
-
-Edit `index.md` — cari & replace semua angka versi:
-
-| Lokasi | Contoh |
-|--------|--------|
-| `description` (front matter) | `Download deepin 25.2.0` |
-| `<!-- Headline -->` | `Versi Terbaru deepin 25.2.0` |
-| `h2` headline | `<h2>deepin 25.2.0 Kini Tersedia!</h2>` |
-| `<strong>` di body | `<strong>deepin 25.2.0</strong>` |
-
-### Update konten home
-
-- **Hero**: `index.md` baris ~10-30 — tagline, tombol download, video YouTube
-- **Headline**: `index.md` baris ~45-65 — badge rilis, judul, link berita
-- **Apa itu deepin?**: `index.md` baris ~70-130 — teks intro, screenshot, highlight list
-- **Why deepin?**: `_theme/_includes/why-deepin.html` — 6 kartu fitur
-- **Filosofi Desain**: `index.md` — 5 kartu desain
-- **Perjalanan deepin**: `index.md` — timeline 7 milestone
-- **Statistik**: `index.md` — 6 kartu angka
-- **Mengapa deepin Indonesia?**: `index.md` — subtitle + 3 fitur
-- **Community Lead**: `index.md` — foto Zaky NR, link
-- **CTA**: `index.md` — ajakan download + gabung komunitas
-
-### Update screenshot
 
 1. Commit gambar ke `_theme/assets/images/screenshots/deepin25/`
 2. Pull submodule theme
