@@ -25,6 +25,7 @@ home-site/
 ├── src/
 │   ├── components/
 │   │   ├── Layout.astro      # Base layout (HTML head, GA4, SEO meta)
+│   │   ├── Analytics.astro   # Google Analytics 4 + pelacakan perilaku pengguna
 │   │   ├── Header.astro      # Sticky header + nav + mobile menu
 │   │   ├── Footer.astro      # Footer dengan social links
 │   │   ├── Awards.astro      # Section penghargaan deepin
