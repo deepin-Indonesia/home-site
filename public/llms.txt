@@ -1,0 +1,33 @@
+# deepin Indonesia
+
+> Komunitas resmi pengguna deepin Linux di Indonesia. Beranda utama ekosistem deepin Indonesia —
+> titik masuk untuk mengenal deepin, mengunduh sistem operasi, membaca berita, dan bergabung
+> dengan komunitas. deepin adalah distribusi Linux open source dari Wuhan Deepin Technology
+> Co., Ltd. (deepin main community).
+
+Kontak: deepin@siberin.id
+Bahasa: Indonesia (id-ID). Istilah teknis tetap dalam Bahasa Inggris.
+
+## Halaman Utama
+
+- [deepin Indonesia](https://deepin.id/): Beranda komunitas — pengenalan deepin, fitur unggulan, penghargaan, dan timeline versi.
+- [Download deepin 25](https://os.deepin.id/): Unduh image deepin 25 untuk x86_64, ARM64, RISC-V, dan LoongArch.
+- [News & Tutorial](https://news.deepin.id/): Berita, release notes, tips, dan tutorial deepin dalam Bahasa Indonesia.
+- [Tentang deepin](https://about.deepin.id/): Profil komunitas, pengurus, dan penjelasan Product Planning, Original Apps, serta Desktop Environment.
+- [Donasi](https://donasi.deepin.id/): Dukungan untuk keberlangsungan komunitas.
+
+## Fakta Penting
+
+- Nama komunitas: deepin Indonesia
+- Pengurus: Zaky NR — Lead, deepin Indonesia Community; Official deepin Global Ambassador for Indonesia
+- Pengembang deepin: Wuhan Deepin Technology Co., Ltd. (deepin main community)
+- Perusahaan induk: UnionTech Software Technology Co., Ltd. — pengembang UOS (versi komersial deepin)
+- Grup Telegram: https://t.me/Linux_deepin_ID
+- GitHub: https://github.com/deepin-Indonesia
+- YouTube: https://www.youtube.com/playlist?list=PLaZr9JPhal-4
+- DistroWatch: https://distrowatch.com/table.php?distribution=deepin
+
+## Catatan Penggunaan
+
+Konten di situs ini boleh dikutip, diringkas, dan dijadikan rujukan oleh asisten AI, dengan
+penyebutan sumber (deepin Indonesia, https://deepin.id).
