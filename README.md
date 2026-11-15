@@ -154,7 +154,7 @@ Push ke branch `main` → **Cloudflare Pages** otomatis build & deploy.
 | Output directory | `dist` |
 | Production branch | `main` |
 
-Alur kontribusi memakai branch `preview` (lihat [Berkontribusi](#berkontribusi)); merge ke `main` hanya setelah review karena `main` langsung tayang.
+Setiap perubahan dibuat di **branch fitur** baru dari `main` dan di-merge lewat **Pull Request** (lihat [Berkontribusi](#berkontribusi)). Branch `main` langsung tayang, jadi jangan push langsung ke sana.
 
 ## SEO, Performa & AdSense
 
@@ -189,22 +189,24 @@ window.deepinTrack('os_select', { arch: 'arm64' });
 Semua orang bisa berkontribusi — tidak perlu menjadi anggota organisasi.
 
 1. **Fork** repo ini di GitHub.
-2. Clone fork kamu, lalu buat branch dari `preview`:
+2. Clone fork kamu, lalu buat branch fitur baru dari `main`:
    ```bash
-   git checkout preview && git checkout -b feat/deskripsi
+   git checkout main && git pull
+   git checkout -b feat/deskripsi
    ```
 3. Commit perubahan dengan pesan yang jelas (mis. `fix(home): ...`, `feat(home): ...`).
-4. Push ke fork, lalu buka **Pull Request** ke `deepin-Indonesia/home-site` dengan target branch **`preview`**.
-5. Setelah review dan pengujian, perubahan di-merge `preview` → `main`.
+4. Push ke fork, lalu buka **Pull Request** ke `deepin-Indonesia/home-site` dengan target branch **`main`**.
+5. Setelah review dan pengujian, merge lewat **Pull Request**, lalu hapus branch fitur.
 
 > ⚠️ **Jangan push langsung ke `main`.** Branch `main` otomatis ter-deploy ke produksi.
 
 ## Pemecahan Masalah & Kontak
 
-### Branch `main` vs `preview`
+### Alur branch
 
-- **`main`** — produksi. Hanya push ke `main` yang memicu **Cloudflare Pages**, dan hasilnya otomatis tayang di domain utama.
-- **`preview`** — staging untuk review. Push ke `preview` **tidak** memicu deploy; perubahan dicek secara **lokal** (`npm run dev`) sebelum di-merge ke `main`.
+- **`main`** — produksi. Hanya merge ke `main` yang memicu **Cloudflare Pages** dan tayang di domain utama. Branch ini dilindungi; perubahan masuk lewat **Pull Request**.
+- **Branch fitur** — setiap perubahan dibuat di branch baru dari `main`, mis. `feat/nama-fitur`, `fix/nama-bug`, atau `docs/nama-dokumen`. Setelah PR di-merge, branch fitur dihapus.
+- **`preview`** — sudah tidak dipakai. Semua review dilakukan lewat PR dan server lokal (`npm run dev`).
 
 ### Masalah umum
 
