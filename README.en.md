@@ -154,7 +154,7 @@ Push to the `main` branch → **Cloudflare Pages** builds and deploys automatica
 | Output directory | `dist` |
 | Production branch | `main` |
 
-Contributions use the `preview` branch (see [Contributing](#contributing)); merge to `main` only after review, because `main` goes live immediately.
+Every change goes on a new **feature branch** from `main` and is merged through a **Pull Request** (see [Contributing](#contributing)). `main` goes live immediately, so never push to it directly.
 
 ## SEO, Performance & AdSense
 
@@ -189,22 +189,24 @@ window.deepinTrack('os_select', { arch: 'arm64' });
 Anyone can contribute — no organization membership required.
 
 1. **Fork** this repo on GitHub.
-2. Clone your fork, then branch from `preview`:
+2. Clone your fork, then create a feature branch from `main`:
    ```bash
-   git checkout preview && git checkout -b feat/description
+   git checkout main && git pull
+   git checkout -b feat/description
    ```
 3. Commit with a clear message (e.g., `fix(home): ...`, `feat(home): ...`).
-4. Push to your fork, then open a **Pull Request** against `deepin-Indonesia/home-site` targeting the **`preview`** branch.
-5. After review and testing, changes are merged `preview` → `main`.
+4. Push to your fork, then open a **Pull Request** against `deepin-Indonesia/home-site` targeting the **`main`** branch.
+5. After review and testing, merged through a **Pull Request**, then the feature branch is deleted.
 
 > ⚠️ **Do not push directly to `main`.** The `main` branch deploys to production automatically.
 
 ## Troubleshooting & Contact
 
-### Branch `main` vs `preview`
+### Branch workflow
 
-- **`main`** — production. Only pushes to `main` trigger **Cloudflare Pages**, which deploys automatically to the main domain.
-- **`preview`** — staging for review. Pushing to `preview` does **not** trigger a deploy; changes are reviewed **locally** (`npm run dev`) before merging into `main`.
+- **`main`** — production. Only merges into `main` trigger **Cloudflare Pages** and go live on the main domain. This branch is protected; changes go through **Pull Requests**.
+- **Feature branch** — every change lives on a new branch from `main`, e.g. `feat/feature-name`, `fix/bug-name`, or `docs/doc-name`. After the PR is merged, the feature branch is deleted.
+- **`preview`** — no longer used. All review happens through PRs and the local dev server (`npm run dev`).
 
 ### Common issues
 
